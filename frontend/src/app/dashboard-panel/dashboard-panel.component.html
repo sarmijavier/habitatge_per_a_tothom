@@ -1,0 +1,73 @@
+<div class="panel">
+
+  <!-- Placeholder -->
+  <div *ngIf="commands.length === 0" class="placeholder">
+    <span class="placeholder-icon">📊</span>
+    <p>Ask the chatbot to render something.</p>
+  </div>
+
+  <!-- Widgets grid -->
+  <div *ngIf="commands.length > 0" class="widgets-grid">
+    <ng-container *ngFor="let command of commands; let i = index; trackBy: trackByIndex">
+
+      <!-- render_chart -->
+      <div *ngIf="command.type === 'render_chart'" class="widget chart-widget">
+        <h2 class="widget-title">{{ $any(command).payload.label }}</h2>
+        <svg class="bar-chart"
+          [attr.viewBox]="'0 0 ' + ($any(command).payload.data.length * 60 + 40) + ' 220'"
+          preserveAspectRatio="xMidYMid meet">
+          <g *ngFor="let value of $any(command).payload.data; let j = index; trackBy: trackByIndex">
+            <rect
+              [attr.x]="j * 60 + 20"
+              [attr.y]="200 - barHeight(value, command)"
+              width="40"
+              [attr.height]="barHeight(value, command)"
+              class="bar"
+            />
+            <text
+              [attr.x]="j * 60 + 40"
+              [attr.y]="198 - barHeight(value, command)"
+              text-anchor="middle"
+              class="bar-label"
+            >{{ value }}</text>
+            <text
+              [attr.x]="j * 60 + 40"
+              y="215"
+              text-anchor="middle"
+              class="bar-index"
+            >{{ j + 1 }}</text>
+          </g>
+          <line x1="20" y1="200"
+            [attr.x2]="$any(command).payload.data.length * 60 + 20"
+            y2="200" class="axis" />
+        </svg>
+      </div>
+
+      <!-- render_text -->
+      <div *ngIf="command.type === 'render_text'" class="widget text-widget">
+        <h2 class="widget-title">{{ $any(command).payload.title }}</h2>
+        <p class="widget-body">{{ $any(command).payload.body }}</p>
+      </div>
+
+      <!-- render_table -->
+      <div *ngIf="command.type === 'render_table'" class="widget table-widget">
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th *ngFor="let col of $any(command).payload.columns; trackBy: trackByIndex">{{ col }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let row of $any(command).payload.rows; trackBy: trackByIndex">
+                <td *ngFor="let cell of row; trackBy: trackByIndex">{{ cell }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </ng-container>
+  </div>
+
+</div>

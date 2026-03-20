@@ -1,0 +1,146 @@
+.panel {
+  height: 100%;
+  background: var(--surface);
+  border-right: 0.5px solid var(--border);
+  overflow: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px;
+}
+
+.widgets-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.placeholder-icon {
+  font-size: 48px;
+  opacity: 0.5;
+}
+
+.placeholder p {
+  font-size: 15px;
+}
+
+.widget {
+  min-width: 280px;
+  max-width: 480px;
+  flex: 1 1 280px;
+}
+
+.widget-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+/* Chart */
+.chart-widget {
+  overflow: hidden;
+}
+
+.bar-chart {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.bar {
+  fill: var(--accent);
+  rx: 3;
+  ry: 3;
+  transition: fill 0.2s;
+}
+
+.bar:hover {
+  fill: var(--accent-hover);
+}
+
+.bar-label {
+  font-size: 11px;
+  fill: var(--text-muted);
+}
+
+.bar-index {
+  font-size: 11px;
+  fill: var(--text-muted);
+}
+
+.axis {
+  stroke: var(--border);
+  stroke-width: 1;
+}
+
+/* Text card */
+.text-widget {
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.widget-body {
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* Table */
+.table-widget {
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: var(--bg);
+}
+
+th {
+  padding: 10px 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text-muted);
+  border-bottom: 0.5px solid var(--border);
+}
+
+td {
+  padding: 10px 16px;
+  font-size: 14px;
+  color: var(--text);
+  border-bottom: 0.5px solid var(--border);
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background: var(--bg);
+}
