@@ -1,72 +1,58 @@
 <div class="panel">
 
   <!-- Placeholder -->
-  <div *ngIf="commands.length === 0" class="placeholder">
+  <div *ngIf="widgets.length === 0" class="placeholder">
     <span class="placeholder-icon">📊</span>
     <p>Ask the chatbot to render something.</p>
   </div>
 
-  <!-- Widgets grid -->
-  <div *ngIf="commands.length > 0" class="widgets-grid">
-    <ng-container *ngFor="let command of commands; let i = index; trackBy: trackByIndex">
+  <!-- Free-form draggable canvas -->
+  <div *ngIf="widgets.length > 0" class="canvas" [class.dragging]="isDragging">
+    <ng-container *ngFor="let widget of widgets; trackBy: trackById">
+      <ng-container *ngIf="getComponent(widget.command.type) as comp">
+        <div
+          class="widget-frame"
+          [class.wide]="widget.command.type === 'render_map'"
+          [style.left.px]="widget.x"
+          [style.top.px]="widget.y"
+        >
+          <!-- Drag handle -->
+          <div class="widget-handle" (mousedown)="onDragStart($event, widget)">
+            <span class="handle-grip">⠿</span>
+            <div class="handle-actions">
+              <button
+                class="handle-btn"
+                [class.active]="debugWidgetId === widget.id"
+                (mousedown)="$event.stopPropagation()"
+                (click)="toggleDebug(widget.id)"
+                title="Inspect payload"
+              >&#123;&#125;</button>
+              <button
+                class="handle-btn close-btn"
+                (mousedown)="$event.stopPropagation()"
+                (click)="removeWidget(widget.id)"
+                title="Remove widget"
+              >×</button>
+            </div>
+          </div>
 
-      <!-- render_chart -->
-      <div *ngIf="command.type === 'render_chart'" class="widget chart-widget">
-        <h2 class="widget-title">{{ $any(command).payload.label }}</h2>
-        <svg class="bar-chart"
-          [attr.viewBox]="'0 0 ' + ($any(command).payload.data.length * 60 + 40) + ' 220'"
-          preserveAspectRatio="xMidYMid meet">
-          <g *ngFor="let value of $any(command).payload.data; let j = index; trackBy: trackByIndex">
-            <rect
-              [attr.x]="j * 60 + 20"
-              [attr.y]="200 - barHeight(value, command)"
-              width="40"
-              [attr.height]="barHeight(value, command)"
-              class="bar"
-            />
-            <text
-              [attr.x]="j * 60 + 40"
-              [attr.y]="198 - barHeight(value, command)"
-              text-anchor="middle"
-              class="bar-label"
-            >{{ value }}</text>
-            <text
-              [attr.x]="j * 60 + 40"
-              y="215"
-              text-anchor="middle"
-              class="bar-index"
-            >{{ j + 1 }}</text>
-          </g>
-          <line x1="20" y1="200"
-            [attr.x2]="$any(command).payload.data.length * 60 + 20"
-            y2="200" class="axis" />
-        </svg>
-      </div>
+          <!-- Debug payload inspector -->
+          <div *ngIf="debugWidgetId === widget.id" class="debug-panel">
+            <div class="debug-header">
+              <span class="debug-type">{{ widget.command.type }}</span>
+            </div>
+            <pre class="debug-json">{{ formatPayload(widget.command) }}</pre>
+          </div>
 
-      <!-- render_text -->
-      <div *ngIf="command.type === 'render_text'" class="widget text-widget">
-        <h2 class="widget-title">{{ $any(command).payload.title }}</h2>
-        <p class="widget-body">{{ $any(command).payload.body }}</p>
-      </div>
-
-      <!-- render_table -->
-      <div *ngIf="command.type === 'render_table'" class="widget table-widget">
-        <div class="table-scroll">
-          <table>
-            <thead>
-              <tr>
-                <th *ngFor="let col of $any(command).payload.columns; trackBy: trackByIndex">{{ col }}</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr *ngFor="let row of $any(command).payload.rows; trackBy: trackByIndex">
-                <td *ngFor="let cell of row; trackBy: trackByIndex">{{ cell }}</td>
-              </tr>
-            </tbody>
-          </table>
+          <!-- Widget content — rendered dynamically, no *ngIf per type -->
+          <div class="widget-content">
+            <ng-container
+              [ngComponentOutlet]="comp"
+              [ngComponentOutletInputs]="getInputs(widget.command)"
+            ></ng-container>
+          </div>
         </div>
-      </div>
-
+      </ng-container>
     </ng-container>
   </div>
 

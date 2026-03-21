@@ -4,3 +4,9 @@
   height: 100vh;
   overflow: hidden;
 }
+
+/* Grid items must opt out of min-height:auto so their inner
+   overflow:auto/scroll regions are actually bounded. */
+.app-shell > * {
+  min-height: 0;
+}

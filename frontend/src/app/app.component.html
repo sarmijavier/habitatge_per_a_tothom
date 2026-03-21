@@ -1,4 +1,7 @@
 <div class="app-shell">
-  <app-dashboard-panel [commands]="commands"></app-dashboard-panel>
+  <app-dashboard-panel
+    [widgets]="widgets"
+    (widgetRemoved)="onWidgetRemoved($event)"
+  ></app-dashboard-panel>
   <app-chat-panel (commandChange)="onCommandChange($event)"></app-chat-panel>
 </div>

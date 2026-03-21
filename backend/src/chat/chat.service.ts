@@ -1,51 +1,38 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Mistral } from '@mistralai/mistralai';
-import {
-  ChatMessage,
-  ChatResponse,
-  DashboardCommand,
-} from './chat.types';
+import { ChatMessage, ChatResponse } from './chat.types';
+import { WIDGET_REGISTRY } from './widget.registry';
+import { GeoService } from './geo.service';
 
-const SYSTEM_PROMPT = `You are a dashboard assistant. Your role is to help users visualize data and information on a dashboard.
+// ── Router ────────────────────────────────────────────────────────────────────
+const ROUTER_PROMPT = `You are a routing assistant for a data dashboard.
+Analyze the user's message and decide which dashboard widget best fits the request.
 
-You MUST always end every response with a CMD line on its own line in exactly this format:
-CMD:{"type":"...","payload":{...}}
-or if no dashboard action is needed:
-CMD:null
+Available types:
+- render_chart  — bar chart of numerical values (statistics, comparisons, rankings)
+- render_text   — text card with title + body (explanations, summaries, definitions)
+- render_table  — table with rows and columns (structured data, lists, multi-column comparisons)
+- render_map    — choropleth map of any country by region (any regional/geographic data)
+- clear         — user wants to clear / reset the dashboard
+- none          — general question, greeting, or anything that doesn't need a widget
 
-Available command types and their payload shapes:
-- render_chart: { "label": string, "data": number[] }
-  Use when the user asks to draw, plot, show, or visualize numerical/chart data.
-- render_text: { "title": string, "body": string }
-  Use when the user asks to display text content, summaries, descriptions, or reports.
-- render_table: { "columns": string[], "rows": string[][] }
-  Use when the user asks to show a table, list with multiple fields, or structured data.
-- clear: {} (empty payload)
-  Use when the user asks to clear, reset, or empty the dashboard.
-- null: use CMD:null when the user asks a general question not related to the dashboard.
+Reply with EXACTLY one of these words and nothing else:
+render_chart | render_text | render_table | render_map | clear | none`;
 
-Examples:
-User: "Draw me a bar chart of monthly sales: 12, 45, 33, 67, 20"
-Response: Here is your bar chart of monthly sales.
-CMD:{"type":"render_chart","payload":{"label":"Monthly Sales","data":[12,45,33,67,20]}}
+// ── Country extractor ─────────────────────────────────────────────────────────
+const COUNTRY_EXTRACTOR_PROMPT = `Extract the country name from the user's message.
+Reply with ONLY the lowercase English country name, using hyphens for spaces.
+Examples: spain, france, czech-republic, united-states, south-korea, south-africa, colombia, brazil, japan.
+If no country is mentioned, reply with: spain`;
 
-User: "Show me a summary of Q3 results"
-Response: Here is the Q3 results summary.
-CMD:{"type":"render_text","payload":{"title":"Q3 Results Summary","body":"Q3 saw strong performance across all divisions with revenue up 15% year-over-year."}}
+// ── Plain reply ───────────────────────────────────────────────────────────────
+const PLAIN_REPLY_PROMPT = `You are a helpful assistant. Answer the user's question concisely.
+Do not include images, external links, or URLs in your response — plain text only.
+Always respond in the same language the user writes in.`;
 
-User: "Display a table with columns Name, Age, City and two example rows"
-Response: Here is your table.
-CMD:{"type":"render_table","payload":{"columns":["Name","Age","City"],"rows":[["Alice","30","Barcelona"],["Bob","25","Madrid"]]}}
-
-User: "Clear the dashboard"
-Response: Dashboard cleared.
-CMD:{"type":"clear","payload":{}}
-
-User: "What is the capital of France?"
-Response: The capital of France is Paris.
-CMD:null
-
-IMPORTANT: Always respond in the same language the user writes in. Always include the CMD line at the very end.`;
+// ── Helpers ───────────────────────────────────────────────────────────────────
+type RouteResult = keyof typeof WIDGET_REGISTRY | 'none';
+const KNOWN_ROUTES = new Set([...Object.keys(WIDGET_REGISTRY), 'none']);
 
 @Injectable()
 export class ChatService {
@@ -53,63 +40,161 @@ export class ChatService {
   private client!: Mistral;
   private modelName: string;
 
-  constructor() {
+  constructor(private readonly geoService: GeoService) {
     const apiKey = process.env['MISTRAL_API_KEY'];
-    if (!apiKey) {
-      throw new Error('MISTRAL_API_KEY environment variable is not set');
-    }
+    if (!apiKey) throw new Error('MISTRAL_API_KEY environment variable is not set');
     this.client = new Mistral({ apiKey });
     this.modelName = process.env['MISTRAL_MODEL'] ?? 'mistral-small-latest';
-    this.logger.log(`Using Mistral model: ${this.modelName}`);
+    this.logger.log(`Using model: ${this.modelName}`);
   }
 
   async chat(message: string, history: ChatMessage[]): Promise<ChatResponse> {
-    const messages = [
-      { role: 'system' as const, content: SYSTEM_PROMPT },
-      ...history
-        .filter((msg) => msg.content && msg.content.trim() !== '')
-        .map((msg) => ({
-          role: msg.role as 'user' | 'assistant',
-          content: msg.content,
-        })),
-      { role: 'user' as const, content: message },
-    ];
+    this.logger.log(`User: "${message}" (history: ${history.length} msgs)`);
+
+    // ── Step 1: Route ──────────────────────────────────────────────────────────
+    const route = await this.route(message, history);
+    this.logger.log(`Route → ${route}`);
+
+    // ── Step 2a: No widget needed ──────────────────────────────────────────────
+    if (route === 'none') {
+      const reply = await this.plainReply(message, history);
+      return { reply, command: null };
+    }
+
+    // ── Step 2b: Clear — no generation needed ─────────────────────────────────
+    if (route === 'clear') {
+      return { reply: 'Dashboard cleared.', command: { type: 'clear' } };
+    }
+
+    // ── Step 2c: Map — extract country then build prompt with real region names ─
+    if (route === 'render_map') {
+      return this.generateMap(message, history);
+    }
+
+    // ── Step 2d: Other widgets ─────────────────────────────────────────────────
+    const def = WIDGET_REGISTRY[route];
+    return this.generate(def, message, history);
+  }
+
+  // ── Map generation: extract country → fetch GADM names → generate ────────────
+  private async generateMap(message: string, history: ChatMessage[]): Promise<ChatResponse> {
+    const def = WIDGET_REGISTRY['render_map'];
+
+    // Extract country key from the user message
+    const countryKey = await this.extractCountryKey(message);
+    this.logger.log(`Map country key: "${countryKey}"`);
+
+    // Fetch the real region names from GADM (cached after first load)
+    const regionNames = await this.geoService.getRegionNames(countryKey);
+    this.logger.log(`Region names (${regionNames.length}): ${regionNames.slice(0, 5).join(', ')}…`);
+
+    // Build a focused prompt that contains ONLY the exact names for this country
+    const dynamicPrompt = regionNames.length
+      ? `You are generating a regional map widget for a dashboard.
+Your only task is to call the render_map tool with accurate data for ${countryKey}.
+
+Set "country" to exactly: ${countryKey}
+
+The regions for this country are (use these EXACT names, copy character-for-character):
+${regionNames.join(', ')}
+
+Rules:
+- Use real, accurate data from your knowledge.
+- Set a descriptive title and the year the data represents.
+- For each region include a label, e.g. "RegionName: value".
+- Cover as many regions as you know data for.
+You MUST call render_map. Do not write any explanation — just call the tool.
+Always respond in the same language the user writes in.`
+      : def.generatorPrompt; // fallback to static prompt if GADM fetch failed
+
+    return this.generate({ ...def, generatorPrompt: dynamicPrompt }, message, history);
+  }
+
+  // ── Country key extractor ────────────────────────────────────────────────────
+  private async extractCountryKey(message: string): Promise<string> {
+    const result = await this.client.chat.complete({
+      model: this.modelName,
+      messages: [
+        { role: 'system', content: COUNTRY_EXTRACTOR_PROMPT },
+        { role: 'user', content: message },
+      ],
+    });
+    const raw = (result.choices?.[0]?.message?.content ?? '').toString().trim().toLowerCase();
+    // Keep only the first word and sanitize
+    return raw.split(/\s/)[0].replace(/[^a-z-]/g, '') || 'spain';
+  }
+
+  // ── Router call ─────────────────────────────────────────────────────────────
+  private async route(message: string, history: ChatMessage[]): Promise<RouteResult> {
+    const result = await this.client.chat.complete({
+      model: this.modelName,
+      messages: [
+        { role: 'system', content: ROUTER_PROMPT },
+        ...this.formatHistory(history),
+        { role: 'user', content: message },
+      ],
+    });
+
+    const content = result.choices?.[0]?.message?.content ?? '';
+    const raw = (typeof content === 'string' ? content : '').trim().toLowerCase();
+    const token = raw.split(/\s/)[0].replace(/[^a-z_]/g, '');
+
+    if (KNOWN_ROUTES.has(token)) return token as RouteResult;
+
+    this.logger.warn(`Router returned unexpected value: "${raw}" — falling back to none`);
+    return 'none';
+  }
+
+  // ── Generator call ───────────────────────────────────────────────────────────
+  private async generate(
+    def: (typeof WIDGET_REGISTRY)[string],
+    message: string,
+    history: ChatMessage[],
+  ): Promise<ChatResponse> {
+    this.logger.log(`Generating widget: ${def.tool.function.name}`);
 
     const result = await this.client.chat.complete({
       model: this.modelName,
-      messages,
+      messages: [
+        { role: 'system', content: def.generatorPrompt },
+        ...this.formatHistory(history),
+        { role: 'user', content: message },
+      ],
+      tools: [def.tool],
+      toolChoice: 'any',
     });
 
-    const rawContent = result.choices?.[0]?.message?.content ?? '';
-    const rawText = typeof rawContent === 'string' ? rawContent : JSON.stringify(rawContent);
+    const assistantMsg = result.choices?.[0]?.message;
+    const toolCall = assistantMsg?.toolCalls?.[0];
 
-    const { reply, command } = this.parseResponse(rawText);
+    if (!toolCall) {
+      this.logger.warn(`Generator for ${def.tool.function.name} returned no tool call — falling back to plain reply`);
+      const reply = await this.plainReply(message, history);
+      return { reply, command: null };
+    }
 
-    return { reply, command };
+    const args = JSON.parse(toolCall.function.arguments as string) as Record<string, unknown>;
+    this.logger.log(`Tool args keys: ${Object.keys(args).join(', ')}`);
+
+    return { reply: def.reply, command: def.build(args) };
   }
 
-  private parseResponse(raw: string): { reply: string; command: DashboardCommand | null } {
-    // Match CMD: at the end, possibly with surrounding whitespace/newlines
-    const cmdRegex = /\n?\s*CMD:(null|\{.*?\})\s*$/s;
-    const match = raw.match(cmdRegex);
+  // ── Plain conversational reply ───────────────────────────────────────────────
+  private async plainReply(message: string, history: ChatMessage[]): Promise<string> {
+    const result = await this.client.chat.complete({
+      model: this.modelName,
+      messages: [
+        { role: 'system', content: PLAIN_REPLY_PROMPT },
+        ...this.formatHistory(history),
+        { role: 'user', content: message },
+      ],
+    });
+    return (result.choices?.[0]?.message?.content ?? '').toString().trim();
+  }
 
-    if (!match) {
-      return { reply: raw.trim(), command: null };
-    }
-
-    const cmdStr = match[1];
-    const reply = raw.slice(0, match.index).trim();
-
-    if (cmdStr === 'null') {
-      return { reply, command: null };
-    }
-
-    try {
-      const command = JSON.parse(cmdStr) as DashboardCommand;
-      return { reply, command };
-    } catch {
-      this.logger.warn(`Failed to parse CMD JSON: ${cmdStr}`);
-      return { reply, command: null };
-    }
+  private formatHistory(history: ChatMessage[]) {
+    return history
+      .filter((m) => m.content?.trim())
+      .map((m) => ({ role: m.role as 'user' | 'assistant', content: m.content }));
   }
 }

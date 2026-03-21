@@ -1,20 +1,22 @@
+:host {
+  display: block;
+  height: 100%;
+  min-height: 0;
+}
+
 .panel {
   height: 100%;
   background: var(--surface);
   border-right: 0.5px solid var(--border);
   overflow: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 32px;
+  padding: 24px;
 }
 
-.widgets-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  align-items: flex-start;
+/* Free-form absolute canvas for draggable widgets */
+.canvas {
+  position: relative;
   width: 100%;
+  min-height: 800px;
 }
 
 .placeholder {
@@ -24,6 +26,7 @@
   gap: 12px;
   color: var(--text-muted);
   text-align: center;
+  padding-top: 80px;
 }
 
 .placeholder-icon {
@@ -35,112 +38,129 @@
   font-size: 15px;
 }
 
-.widget {
-  min-width: 280px;
-  max-width: 480px;
-  flex: 1 1 280px;
-}
-
-.widget-title {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: var(--text);
-}
-
-/* Chart */
-.chart-widget {
-  overflow: hidden;
-}
-
-.bar-chart {
-  width: 100%;
-  height: auto;
-  overflow: visible;
-}
-
-.bar {
-  fill: var(--accent);
-  rx: 3;
-  ry: 3;
-  transition: fill 0.2s;
-}
-
-.bar:hover {
-  fill: var(--accent-hover);
-}
-
-.bar-label {
-  font-size: 11px;
-  fill: var(--text-muted);
-}
-
-.bar-index {
-  font-size: 11px;
-  fill: var(--text-muted);
-}
-
-.axis {
-  stroke: var(--border);
-  stroke-width: 1;
-}
-
-/* Text card */
-.text-widget {
+/* Widget frame — absolutely positioned, draggable */
+.widget-frame {
+  position: absolute;
+  width: 340px;
   background: var(--surface);
   border: 0.5px solid var(--border);
   border-radius: 8px;
-  padding: 24px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  user-select: none;
+  transition: box-shadow 0.15s;
 }
 
-.widget-body {
-  color: var(--text-muted);
-  font-size: 15px;
-  line-height: 1.7;
+.widget-frame:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
 }
 
-/* Table */
-.table-widget {
-  background: var(--surface);
-  border: 0.5px solid var(--border);
-  border-radius: 8px;
-  overflow: hidden;
+.widget-frame.wide {
+  width: 560px;
 }
 
-.table-scroll {
-  overflow-x: auto;
-  border-radius: 8px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-thead {
+/* Drag handle bar */
+.widget-handle {
   background: var(--bg);
-}
-
-th {
-  padding: 10px 16px;
-  text-align: left;
-  font-weight: 600;
-  font-size: 13px;
-  color: var(--text-muted);
   border-bottom: 0.5px solid var(--border);
+  border-radius: 8px 8px 0 0;
+  padding: 5px 10px;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-td {
-  padding: 10px 16px;
+.widget-handle:active {
+  cursor: grabbing;
+}
+
+.handle-grip {
+  color: var(--text-muted);
   font-size: 14px;
-  color: var(--text);
+  opacity: 0.4;
+  line-height: 1;
+}
+
+.handle-actions {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.handle-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 1;
+  padding: 2px 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.45;
+  transition: opacity 0.15s, background 0.15s;
+  font-family: monospace;
+}
+
+.handle-btn:hover {
+  opacity: 1;
+  background: var(--border);
+}
+
+.handle-btn.active {
+  opacity: 1;
+  background: var(--accent);
+  color: #fff;
+}
+
+.close-btn:hover {
+  color: #e24b4a;
+  background: rgba(226, 75, 74, 0.1);
+}
+
+/* Debug payload inspector */
+.debug-panel {
   border-bottom: 0.5px solid var(--border);
-}
-
-tbody tr:last-child td {
-  border-bottom: none;
-}
-
-tbody tr:hover {
   background: var(--bg);
+}
+
+.debug-header {
+  padding: 6px 12px 4px;
+}
+
+.debug-type {
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.debug-json {
+  margin: 0;
+  padding: 0 12px 10px;
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--text-muted);
+  white-space: pre-wrap;
+  word-break: break-all;
+  max-height: 220px;
+  overflow-y: auto;
+  line-height: 1.5;
+}
+
+.widget-content {
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+}
+
+/* While dragging: global cursor + block widget content from capturing events */
+.canvas.dragging {
+  cursor: grabbing;
+}
+
+.canvas.dragging .widget-content {
+  pointer-events: none;
+}
+
+.canvas.dragging .widget-handle {
+  cursor: grabbing;
 }

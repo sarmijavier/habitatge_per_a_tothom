@@ -19,13 +19,12 @@ import { ChatMessage, DashboardCommand } from '../chat.types';
 })
 export class ChatPanelComponent {
   @Output() commandChange = new EventEmitter<DashboardCommand | null>();
+  @ViewChild('messagesContainer') messagesContainer!: ElementRef<HTMLDivElement>;
   @ViewChild('messagesEnd') messagesEnd!: ElementRef<HTMLDivElement>;
-  @ViewChild('inputEl') inputEl!: ElementRef<HTMLTextAreaElement>;
 
   history: ChatMessage[] = [];
   inputText = '';
   isLoading = false;
-  latestCommand: DashboardCommand | null = null;
 
   constructor(private chatService: ChatService) {}
 
@@ -43,17 +42,18 @@ export class ChatPanelComponent {
     this.history.push({ role: 'user', content: message });
     this.inputText = '';
     this.isLoading = true;
-    this.scrollToBottom();
+    // Always scroll on send — user just sent something, show the loading indicator
+    this.scrollToBottom(true);
 
     this.chatService
       .send({ message, history: this.history.slice(0, -1) })
       .subscribe({
         next: (response) => {
           this.history.push({ role: 'assistant', content: response.reply });
-          this.latestCommand = response.command;
           this.commandChange.emit(response.command);
           this.isLoading = false;
-          this.scrollToBottom();
+          // Scroll only if user is already near the bottom (not reading history)
+          this.scrollToBottom(false);
         },
         error: (err) => {
           console.error('Chat error:', err);
@@ -62,7 +62,7 @@ export class ChatPanelComponent {
             content: 'Sorry, an error occurred. Please try again.',
           });
           this.isLoading = false;
-          this.scrollToBottom();
+          this.scrollToBottom(false);
         },
       });
   }
@@ -71,9 +71,22 @@ export class ChatPanelComponent {
     return index;
   }
 
-  private scrollToBottom(): void {
+  /**
+   * @param force - if true, always scroll (used on message send);
+   *                if false, scroll only when user is near the bottom.
+   */
+  private scrollToBottom(force: boolean): void {
     setTimeout(() => {
-      this.messagesEnd?.nativeElement?.scrollIntoView({ behavior: 'smooth' });
+      const container = this.messagesContainer?.nativeElement;
+      if (!container) return;
+
+      const distanceFromBottom =
+        container.scrollHeight - container.scrollTop - container.clientHeight;
+      const isNearBottom = distanceFromBottom < 120;
+
+      if (force || isNearBottom) {
+        this.messagesEnd?.nativeElement?.scrollIntoView({ behavior: 'smooth' });
+      }
     }, 50);
   }
 }
