@@ -115,7 +115,7 @@ def get_answer_with_agent(query):
             model="gemini-2.5-flash",
             #model='gemini-1.5-flash',
             temperature=0,
-            google_api_key="AIzaSyDSgd9m-nJCZUhq2U3WzG8gbC4l_d6hNqM"
+            google_api_key="os.environ.get('GEMINI_API')"
         )
 
     # 2. Tus herramientas (Asegúrate de tenerlas definidas arriba)
