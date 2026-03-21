@@ -6,6 +6,10 @@ import { ChatShortcutBar } from "../components/ChatShortcutBar";
 import { MiniChart } from "../components/MiniChart";
 import { OnboardingForm } from "../components/OnboardingForm";
 import { SourcesPanel } from "../components/SourcesPanel";
+<<<<<<< HEAD
+=======
+import { DebateMode } from "../components/DebateMode";
+>>>>>>> 1df547e (added code)
 import {
   ApiError,
   fetchCountries,
@@ -455,7 +459,11 @@ export default function HomePage() {
             ) : null}
 
             {lastResponse?.chart ? <MiniChart chart={lastResponse.chart} /> : null}
+<<<<<<< HEAD
           </>
+=======
+          <DebateMode/>
+>>>>>>> 1df547e (added code)
         )}
 
         {error ? (
