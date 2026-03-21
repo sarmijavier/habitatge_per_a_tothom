@@ -1,0 +1,18 @@
+---
+id: "legal-cu-raw-cu-dl-2016-vivienda-pdf__trozo_100"
+tipo_documento: "chunk"
+categoria: "leyes"
+pais_codigo: "cu"
+pais: "Cuba"
+documento_padre: "documentos/por_pais/cuba/leyes/ley-cuba-cu-dl-2016-vivienda-0c6e2e8d.md"
+orden_chunk: 100
+titulo: "ARTÍCULO 14. La Dirección de Política Contable de este Ministerio, emite los procedimientos técnicos que aseguren la operatoria dispuesta en... (1)"
+caracteres: 3148
+---
+# ARTÍCULO 14. La Dirección de Política Contable de este Ministerio, emite los procedimientos técnicos que aseguren la operatoria dispuesta en... (1)
+
+## ARTÍCULO 14. La Dirección de Política Contable de este Ministerio, emite los procedimientos técnicos que aseguren la operatoria dispuesta en la presente Resoluc...
+
+270 GACETA OFICIAL 11 de abril de 2017 se inserta una cláusula que establece la obligación del propietario de liquidar la diferencia entre el valor certificado por la entidad inversionista y el valor de la transferencia establecido por el Ministerio de la Construcción, si pretende vender o donar la vivienda en los primeros quince (15) años, contados a partir de su autorización; en la escritura se consignan los detalles de la resolución administrativa referidos a la determinación del valor de transferencia de la obra en ejecución. SEXTO: En las escrituras notariales a que se refiere el Apartado anterior, se deja unida a la matriz la Resolución administrativa del Director de la Dirección Municipal de la
+Vivienda, la licencia de obra y la certificación de habitabilidad. SÉPTIMO: Los actos de Donación entre parientes hasta el cuarto grado de consanguinidad y los de adjudicación por causa de muerte que se realicen en viviendas asignadas por el órgano local del Poder Popular en régimen de propiedad, las edificadas a partir del otorgamiento de subsidio del Presupuesto del Estado, o en las obtenidas a partir de viviendas estatales asignadas en etapa de terminación para su culminación por esfuerzo propio, se exceptúan de cumplir el ingreso al Presupuesto del Estado del monto que en cada caso corresponda referidos en los apartados Primero, Segundo y Tercero de la presente Resolución. OCTAVO: En la escritura notarial de transmisión de la propiedad de la vivienda por donación a parientes hasta el cuarto grado de consanguinidad o al copropietario sin vínculo consanguíneo, o ante la ocurrencia de la liquidación de la comunidad matrimonial de bienes por divorcio o la adjudicación de bienes por causa de muerte; dentro de los primeros quince (15) años luego de su adquisición, en los casos de viviendas asignadas por el Estado, viviendas estatales en ejecución en etapa de terminación para su culminación por esfuerzo propio o edificadas a partir del otorgamiento de subsidio del Presupuesto del
+Estado, la base de cálculo del impuesto a pagar es el valor legal de la vivienda según lo establecido por el Ministerio de Finanzas y Precios. NOVENO: El notario autorizante de la escritura a que se refiere el Apartado anterior, indica expresamente, en las advertencias legales del instrumento público, que la base imponible para el cálculo del impuesto de transmisión de bienes y herencias y de ingresos personales, en su caso, es el valor legal de la vivienda según lo establecido por el Ministerio de Finanzas y Precios, y que el nuevo titular está obligado, si pretende venderla o donarla dentro de los primeros quince (15) años luego de su adquisición inicial, a cumplir con lo establecido en los apartados Primero, Segundo y Tercero de la presente. DÉCIMO: La presente disposición entra en vigor a los treinta (30) días de su publicación en la Gaceta Oficial de la República de Cuba. PUBLÍQUESE en la Gaceta Oficial de la República de Cuba. ARCHÍVESE el original de

@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" office:version="1.2">
+  <office:font-face-decls>
+    <style:font-face style:name="Courier New" style:font-family-generic="modern" style:font-pitch="fixed" svg:font-family="'Courier New'" />
+  </office:font-face-decls>
+  <office:automatic-styles>
+    <style:style style:name="T1" style:family="text"><style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold" /></style:style>
+    <style:style style:name="fr2" style:family="graphic" style:parent-style-name="Formula"><style:graphic-properties style:vertical-pos="middle" style:vertical-rel="text" style:horizontal-pos="center" style:horizontal-rel="paragraph-content" style:wrap="none" /></style:style>
+    <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Formula"><style:graphic-properties style:vertical-pos="middle" style:vertical-rel="text" /></style:style>
+    <style:style style:name="TableHeaderRowCell" style:family="table-cell">
+      <style:table-cell-properties fo:border="none" />
+    </style:style>
+    <style:style style:name="TableRowCell" style:family="table-cell">
+      <style:table-cell-properties fo:border="none" />
+    </style:style>
+    <style:style style:name="Table1" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table1.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="32767*" />
+    </style:style>
+    <style:style style:name="Table1.B" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="32767*" />
+    </style:style>
+    <style:style style:name="Table2" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table2.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="32767*" />
+    </style:style>
+    <style:style style:name="Table2.B" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="32767*" />
+    </style:style>
+    <style:style style:name="Table3" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table3.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="65535*" />
+    </style:style>
+    <style:style style:name="Table4" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table4.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="65535*" />
+    </style:style>
+    <style:style style:name="Table5" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table5.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="32767*" />
+    </style:style>
+    <style:style style:name="Table5.B" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="32767*" />
+    </style:style>
+    <style:style style:name="Table6" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table6.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="32767*" />
+    </style:style>
+    <style:style style:name="Table6.B" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="32767*" />
+    </style:style>
+    <style:style style:name="Table7" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table7.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="65535*" />
+    </style:style>
+    <style:style style:name="Table8" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table8.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="65535*" />
+    </style:style>
+    <style:style style:name="Table9" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table9.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="65535*" />
+    </style:style>
+    <style:style style:name="Table10" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table10.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="65535*" />
+    </style:style>
+    <style:style style:name="Table11" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table11.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="65535*" />
+    </style:style>
+    <style:style style:name="Table12" style:family="table">
+      <style:table-properties table:align="center" style:rel-width="100%" />
+    </style:style>
+    <style:style style:name="Table12.A" style:family="table-column">
+      <style:table-column-properties style:rel-column-width="65535*" />
+    </style:style>
+  </office:automatic-styles>
+<office:body>
+<office:text>
+<text:p text:style-name="Title">Ley No. 65 / Ley General de la Vivienda
+- Cuba News / Documentos - CubaNet News</text:p>
+<table:table table:name="Table1" table:style-name="Table1">
+  <table:table-column table:style-name="Table1.A" />
+  <table:table-column table:style-name="Table1.B" />
+  <table:table-row>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string" table:number-columns-spanned="2">
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="T1">CUBANET</text:span>..
+      DOCUMENTOS<text:line-break /></text:p><text:p text:style-name="Table_20_Contents">ANY
+      word ALL words EXACT phrase</text:p>
+    </table:table-cell>
+  </table:table-row>
+</table:table>
+<table:table table:name="Table2" table:style-name="Table2">
+  <table:table-column table:style-name="Table2.A" />
+  <table:table-column table:style-name="Table2.B" />
+  <table:table-row>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+      <table:table table:name="Table3" table:style-name="Table3">
+        <table:table-column table:style-name="Table3.A" />
+        <table:table-row>
+          <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+            <table:table table:name="Table4" table:style-name="Table4">
+              <table:table-column table:style-name="Table4.A" />
+              <table:table-row>
+                <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                  <text:p text:style-name="Table_20_Contents"><text:span text:style-name="T1">LEY
+                  No.
+                  65</text:span><text:line-break /><text:span text:style-name="T1">LEY
+                  GENERAL DE LA VIVIENDA (Cont.)</text:span></text:p>
+                </table:table-cell>
+              </table:table-row>
+              <table:table-row>
+                <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                  <table:table table:name="Table5" table:style-name="Table5">
+                    <table:table-column table:style-name="Table5.A" />
+                    <table:table-column table:style-name="Table5.B" />
+                    <table:table-row>
+                      <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                        <text:p text:style-name="Table_20_Contents"><text:a xlink:type="simple" xlink:href="vivienda_4.htm" office:name=""><text:span text:style-name="Definition">ANTERIOR</text:span></text:a></text:p>
+                      </table:table-cell>
+                      <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                        <text:p text:style-name="First_20_paragraph"><text:a xlink:type="simple" xlink:href="vivienda_6.htm" office:name=""><text:span text:style-name="Definition">SIGUIENTE</text:span></text:a></text:p>
+                      </table:table-cell>
+                    </table:table-row>
+                  </table:table>
+                </table:table-cell>
+              </table:table-row>
+              <table:table-row>
+                <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                  <text:p text:style-name="Table_20_Contents"><text:bookmark text:name="V" />CAPÍTULO
+                  V</text:p><text:p text:style-name="Table_20_Contents">RÉGIMEN
+                  JURÍDICO DE LAS VIVIENDAS PROPIEDAD
+                  PERSONAL</text:p><text:p text:style-name="Table_20_Contents">SECCIÓN
+                  PRIMERA</text:p><text:p text:style-name="Table_20_Contents">Derechos
+                  y obligaciones de los propietarios de
+                  viviendas</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  64. Los propietarios de las viviendas determinarán
+                  libremente qué personas convivirán con ellos y estarán
+                  facultados para dar por terminada la convivencia de
+                  cualquier persona, para lo que no requerirán
+                  declaración administrativa ni
+                  judicial.</text:p><text:p text:style-name="Table_20_Contents">Se
+                  considera convivientes a las personas que sin
+                  encontrarse en ninguno de los casos de ocupación
+                  ilegal a que se refiere la presente Ley, residen con
+                  el propietario y forman parte del grupo familiar que
+                  ocupa la vivienda, aunque no tengan relación de
+                  parentesco alguno con el
+                  propietario.</text:p><text:p text:style-name="Table_20_Contents">Si
+                  el conviviente pretendiera permanecer en la vivienda
+                  contra la voluntad de su propietario, la Dirección
+                  Municipal de la Vivienda, a solicitud de éste, dictará
+                  resolución, si procediere, conminando al conviviente
+                  para que abandone la vivienda dentro del plazo de 30
+                  días naturales siguientes a la fecha de la
+                  notificación de dicha resolución, y transcurrido dicho
+                  plazo sin que el conviviente abandonara la vivienda,
+                  comunicará a las entidades de donde reciben sus
+                  ingresos todos los integrantes del núcleo del
+                  conviviente en cuestión, la obligación en que estarán
+                  de practicar un descuento mensual, por concepto de uso
+                  no autorizado del inmueble, ascendente al treinta por
+                  ciento (30%) de cada ingreso. De mantenerse esa
+                  situación por tres meses, las retenciones se elevarán
+                  al cincuenta por ciento (50%) mientras dure la
+                  ocupación de la vivienda. Las cantidades producto de
+                  estas retenciones se ingresarán al presupuesto del
+                  Estado.</text:p><text:p text:style-name="Table_20_Contents">En
+                  los casos de elementos de clara conducta antisocial,
+                  no vinculados a centros de trabajo, que se nieguen a
+                  cumplir las disposiciones de la autoridad competente,
+                  podrán ser obligados por la fuerza pública a cumplir
+                  dichas
+                  disposiciones.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  65. La facultad que concede al propietario el artículo
+                  precedente, no podrá ejercerse
+                  contra:</text:p><text:p text:style-name="Table_20_Contents">-
+                  ascendientes y descendientes del
+                  propietario;</text:p><text:p text:style-name="Table_20_Contents">-
+                  madre con uno o más hijos habidos en el matrimonio,
+                  formalizado o no, con el propietario siempre que ella
+                  tenga la guarda y cuidado de los hijos y no tuviere
+                  otro lugar de
+                  residencia;</text:p><text:p text:style-name="Table_20_Contents">-
+                  madre con uno o más hijos menores que llevan tres o
+                  más años ocupando la vivienda y no tuvieren otro lugar
+                  de
+                  residencia;</text:p><text:p text:style-name="Table_20_Contents">-
+                  ancianos que llevan tres o más años ocupando la
+                  vivienda y no tuvieren otro lugar de
+                  residencia;</text:p><text:p text:style-name="Table_20_Contents">-
+                  cualquier otro caso que a juicio de la autoridad
+                  competente constituya una manifiesta injusticia o un
+                  acto
+                  inhumano.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  66. Cuando la vivienda que ocupan los cónyuges
+                  pertenezca a ambos y se promueve el divorcio, el
+                  tribunal determinará a quién se adjudicará su
+                  propiedad definitiva, conforme a las reglas
+                  siguientes:</text:p><text:p text:style-name="Table_20_Contents">a)
+                  Se adjudicará a uno de los cónyuges o a los hijos,
+                  según acuerden las partes en los escritos o en la
+                  comparecencia del proceso de
+                  divorcio;</text:p><text:p text:style-name="Table_20_Contents">b)
+                  a falta de acuerdo, la vivienda continuará como
+                  propiedad de ambos
+                  cónyuges.</text:p><text:p text:style-name="Table_20_Contents">Las
+                  presentes reglas se aplicarán también por los
+                  tribunales en caso de liquidación de la comunidad
+                  matrimonial de
+                  bienes.</text:p><text:p text:style-name="Table_20_Contents">En
+                  estos supuestos, si existieren adeudos, el Banco
+                  Popular de Ahorro vendrá obligado a ajustar el mismo,
+                  de acuerdo a la liquidación de la comunidad
+                  matrimonial de bienes, siempre que esta operación
+                  resulte garantizada con la capacidad de pago de ambos
+                  ex-cónyuges.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  67. Si la vivienda hubiere sido adquirida durante el
+                  matrimonio, se requerirá el consentimiento de ambos
+                  copropietarios para permutarla, venderla o
+                  traspasarla. Fuera de este caso no se requerirá el
+                  consentimiento de ningún
+                  ocupante.</text:p><text:p text:style-name="Table_20_Contents">Se
+                  faculta a la Dirección Municipal de la Vivienda para
+                  conocer y resolver sobre la solicitud de permuta
+                  obligatoria que pueden presentar los propietarios con
+                  el objetivo de liquidar la copropiedad sobre la
+                  vivienda o para separar a uno o más convivientes del
+                  núcleo
+                  familiar.</text:p><text:p text:style-name="Table_20_Contents">El
+                  Instituto Nacional de la Vivienda regulará el
+                  procedimiento para la permuta
+                  obligatoria.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  68. Las viviendas podrán ser permutadas por sus
+                  propietarios, tanto en forma bilateral como
+                  multilateral sin perjuicio de continuar dichos
+                  propietarios pagando el precio pendiente de la
+                  vivienda que ocupaban mediante los descuentos a que se
+                  refiere el artículo 43 en sus respectivos
+                  casos.</text:p><text:p text:style-name="Table_20_Contents">No
+                  obstante lo dispuesto en el párrafo anterior, el Banco
+                  Popular de Ahorro podrá autorizar el traspaso total o
+                  parcial de adeudos entre los permutantes, siempre que
+                  su capacidad de pago y la de sus codeudores solidarios
+                  ofrezcan garantías suficientes para el cobro total de
+                  los
+                  adeudos.</text:p><text:p text:style-name="Table_20_Contents">Cuando
+                  se tratare de permutas de viviendas en forma
+                  multilateral realizadas con el objetivo de liquidar la
+                  comunidad matrimonial de bienes, el Banco Popular de
+                  Ahorro vendrá obligado a dividir el adeudo pendiente
+                  entre los dos ex-cónyuges, siempre que esta operación
+                  resulte garantizada con la capacidad de pago de ambos
+                  titulares.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  69. (Modificado) Las permutas a que se refiere el
+                  artículo precedente se formalizarán ante notario
+                  público, previa autorización, mediante resolución
+                  fundada del Director Municipal de la Vivienda, y no
+                  serán objeto de impuesto, tasa o contribución alguna,
+                  excepto el impuesto sobre
+                  documentos.</text:p><text:p text:style-name="Table_20_Contents">En
+                  ningún caso las Direcciones Municipales de la Vivienda
+                  autorizarán permutas que se presuma tengan su origen
+                  en operaciones
+                  lucrativas.</text:p><text:p text:style-name="Table_20_Contents">Los
+                  notarios públicos que en el acto de formalización del
+                  Contrato de Permuta apreciaren cualquier ilegalidad,
+                  defecto o irregularidad vinculados a la permuta, se
+                  abstendrán de actuar, y se dirigirán, con los
+                  elementos que posean, a la Dirección Provincial de la
+                  Vivienda correspondiente, la cual queda facultada
+                  para, mediante resolución fundada, aclarar, ratificar,
+                  modificar o revocar la resolución dictada por la
+                  Dirección Municipal de la
+                  Vivienda.</text:p><text:p text:style-name="Table_20_Contents">(Este
+                  artículo quedó modificado de la forma que se consigna
+                  por el Decreto-Ley No. 211 de 19 de julio del 2000,
+                  publicado en la Gaceta Oficial Extraordinaria No. 5 de
+                  24 de julio del
+                  2000)</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  70. Cuando se trate de transmitir la propiedad de una
+                  vivienda por compraventa o donación, deberá realizarse
+                  ante notario por el precio que acuerden las partes o
+                  sin precio alguno y previa autorización de la
+                  correspondiente Dirección Provincial de la Vivienda,
+                  que tendrá derecho de tanteo para adquirirla en
+                  propiedad para el Estado, abonando al propietario el
+                  precio legal establecido en la presente Ley, menos el
+                  importe de la parte del precio que estuviera pendiente
+                  de pago, en su
+                  caso.</text:p><text:p text:style-name="Table_20_Contents">La
+                  transmisión de propiedad de una vivienda con arreglo a
+                  lo estipulado en este artículo estará gravada con el
+                  impuesto sobre transmisión de bienes
+                  inmuebles.</text:p><text:p text:style-name="Table_20_Contents">Se
+                  faculta al Instituto Nacional de la Vivienda para
+                  regular el procedimiento para la transmisión de la
+                  propiedad de la vivienda y establecer los casos en los
+                  cuales el Estado otorgará la aprobación de la cesión o
+                  ejercerá el derecho de tanteo a su
+                  favor.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  71. El hecho de tener o recibir una vivienda en
+                  propiedad de acuerdo con las prescripciones del
+                  Capítulo III de esta Ley no limitará el derecho a
+                  recibir en propiedad otra vivienda, en sustitución de
+                  la que se ocupe, de acuerdo con el sistema de
+                  distribución de viviendas
+                  estatales.</text:p><text:p text:style-name="Table_20_Contents">El
+                  que reciba por asignación estatal una vivienda en
+                  propiedad transferirá al Estado la propiedad de la que
+                  hasta ese momento haya estado ocupando, y se le
+                  acreditará la parte pagada del precio legal de esta
+                  última, menos la depreciación correspondiente,
+                  acreditándosele el saldo neto de la parte pagada hasta
+                  el límite del valor de la nueva vivienda que adquiera
+                  y asumiendo el adquirente el saldo del precio, según
+                  el
+                  caso.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  72. Los propietarios de dos viviendas colindantes o
+                  situadas una en los altos de la otra, habitadas ambas
+                  por personas que deseen vivir juntas, podrán comunicar
+                  entre sí ambas viviendas, previo el otorgamiento de la
+                  correspondiente licencia de obra, de tal modo que se
+                  utilicen como una sola que se considere jurídicamente
+                  como copropiedad de ambos. La unificación de las
+                  viviendas se hará constar mediante declaración ante
+                  notario público que se inscribirá en el Registro de la
+                  Propiedad de la
+                  Vivienda.</text:p><text:p text:style-name="Table_20_Contents">Si
+                  estuviera pendiente de pagar el precio de ambas
+                  viviendas o de una de ellas, se mantendrán, respecto
+                  al Banco Popular de Ahorro, las mismas obligaciones
+                  que mantenían sus
+                  propietarios.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  73. Los propietarios de una vivienda, en los casos
+                  excepcionales en que las dimensiones y forma de la
+                  edificación lo permitan, tendrán derecho a dividirla,
+                  previo el otorgamiento de la licencia de obra
+                  correspondiente, con el objetivo de liquidar la
+                  copropiedad o para separar a uno o más convivientes
+                  del núcleo
+                  familiar.</text:p><text:p text:style-name="Table_20_Contents">Si
+                  hubiere acuerdo entre los propietarios la división se
+                  formalizará ante notario. Caso de no existir acuerdo,
+                  los propietarios podrán interesar la división
+                  obligatoria ante la Dirección Municipal de la
+                  Vivienda, la que será competente para
+                  ello.</text:p><text:p text:style-name="Table_20_Contents">El
+                  Instituto Nacional de la Vivienda regulará el
+                  procedimiento para la división obligatoria de la
+                  vivienda.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  74. (Modificado) Los propietarios de viviendas podrán
+                  arrendar, al amparo de lo establecido en la
+                  legislación civil común, viviendas, habitaciones con
+                  servicio sanitario propio o sin él, y otros espacios
+                  que se consideren parte integrante de una vivienda,
+                  mediante precio libremente concertado, previa
+                  inscripción en la Dirección Municipal de la Vivienda
+                  correspondiente.</text:p><text:p text:style-name="Table_20_Contents">En
+                  ningún caso, el arrendamiento a que se hace referencia
+                  en el párrafo anterior, podrá ser realizado a una
+                  persona jurídica para ser usado en actividades que se
+                  correspondan con los fines para los que haya sido
+                  creada dicha persona jurídica. Tampoco podrán ser
+                  objeto de arrendamiento, con fines habitacionales u
+                  otros, viviendas, habitaciones o espacios a los
+                  representantes de organizaciones, firmas, entidades o
+                  países extranjeros acreditados en la República de
+                  Cuba.</text:p><text:p text:style-name="Table_20_Contents">Queda
+                  prohibido, asimismo, el subarrendamiento y la cesión
+                  de uso de viviendas, habitaciones o
+                  espacios.</text:p><text:p text:style-name="Table_20_Contents">Los
+                  arrendamientos a que se hace referencia en el primer
+                  párrafo de este artículo no podrán concertarse para
+                  efectuar actividades lucrativas de carácter comercial,
+                  industrial o de
+                  servicios.</text:p><text:p text:style-name="Table_20_Contents">(Este
+                  Artículo quedó modificado de la forma que se consigna
+                  por el Decreto-Ley No. 171 de 15 de mayo de 1997
+                  publicado en la Gaceta Oficial Extraordinaria No. 3 de
+                  15 de mayo de
+                  1997)</text:p><text:p text:style-name="Table_20_Contents">SECCIÓN
+                  SEGUNDA</text:p><text:p text:style-name="Table_20_Contents">Transmisión
+                  de los derechos sobre la vivienda en caso de
+                  fallecimiento o ausencia definitiva de su
+                  propietario</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  75. A partir de la vigencia de la presente Ley, la
+                  propiedad personal sobre la vivienda ocupada
+                  permanentemente por su propietario se transmitirá,
+                  según sea la situación al momento de su fallecimiento
+                  o de su ausencia definitiva, de acuerdo con las
+                  regulaciones que establecen los artículos
+                  siguientes.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  76. El propietario de una vivienda de residencia
+                  permanente podrá testar sobre ella, pero el heredero o
+                  legatario instituido sólo podrá adjudicarse la
+                  vivienda en los casos
+                  siguientes:</text:p><text:p text:style-name="Table_20_Contents">a)
+                  Si ocupa la vivienda al fallecimiento del
+                  causante;</text:p><text:p text:style-name="Table_20_Contents">b)
+                  si la vivienda quedare vacía al fallecimiento del
+                  testador por haber sido el propietario su único
+                  ocupante.</text:p><text:p text:style-name="Table_20_Contents">Cuando
+                  se trate de grandes inmuebles que puedan servir de
+                  utilidad pública o interés social, u otro uso más
+                  justo y razonable en beneficio de la comunidad, y el
+                  heredero o legatario no fuera, al mismo tiempo, de los
+                  llamados por la Ley para la herencia intestada, el
+                  Estado podrá asignar otra vivienda al beneficiario y
+                  adquirir para sí el
+                  inmueble.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  77. Si al fallecer su propietario sin otorgar
+                  testamento, la vivienda estuviera ocupada por sus
+                  herederos, se les transmitirá la propiedad de aquella
+                  con arreglo a la legislación sucesoria
+                  común.</text:p><text:p text:style-name="Table_20_Contents">En
+                  estos casos si existe la conformidad de todos los
+                  herederos, la adjudicación de la vivienda se realizará
+                  ante notario. Cuando no existiere la conformidad de
+                  los herederos el tribunal será competente para conocer
+                  y transferir la
+                  vivienda.</text:p><text:p text:style-name="Table_20_Contents">El
+                  que reciba la vivienda estará obligado a indemnizar a
+                  los herederos que no la reciban, según dispone la
+                  legislación sucesoria común, mediante el pago de la
+                  cantidad que proceda y estará igualmente obligado a
+                  liquidar los adeudos que el propietario fallecido
+                  tuviese con el Banco Popular de Ahorro, con motivo de
+                  la adquisición de la vivienda, en los mismos términos
+                  en que el fallecido efectuaba los pagos, sin perjuicio
+                  de que, en los casos correspondientes, se aplique lo
+                  dispuesto en el segundo párrafo del artículo
+                  43.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  78. Si al fallecer su propietario la vivienda hubiere
+                  estado ocupada permanentemente sólo por personas que
+                  no sean sus herederos, la propiedad se transferirá al
+                  Estado, sin perjuicio del derecho de los herederos a
+                  recibir el importe del precio
+                  legal.</text:p><text:p text:style-name="Table_20_Contents">En
+                  este caso la Dirección Municipal de la Vivienda
+                  reconocerá mediante resolución el derecho a transferir
+                  la propiedad de la vivienda a los convivientes del
+                  fallecido, que con su anuencia lo hubieren sido por lo
+                  menos durante dos años antes del fallecimiento en los
+                  casos de ex-cónyuges y familiares hasta el cuarto
+                  grado de consanguinidad y durante cinco años, en los
+                  demás
+                  casos.</text:p><text:p text:style-name="Table_20_Contents">En
+                  todo caso se exigirá que el beneficiario de este
+                  derecho no fuere propietario de otra vivienda. La
+                  transferencia de la propiedad se realizará por el
+                  Banco Popular de Ahorro en representación del Estado
+                  conforme a las disposiciones de la Sección II del
+                  Capítulo III de la presente
+                  Ley.</text:p><text:p text:style-name="Table_20_Contents">Los
+                  que actuando con mala fe y egoísmo evidente se han
+                  aprovechado de las circunstancias especiales de
+                  personas necesitadas de ayuda para apropiarse de la
+                  vivienda al fallecimiento de éstas, incurriendo en
+                  indignante conducta antisocial e inhumana, podrán ser
+                  privados por la autoridad competente de los beneficios
+                  de este
+                  artículo.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  79. Si al fallecer su propietario sin otorgar
+                  testamento y la vivienda quedara libre de ocupantes,
+                  se aplicarán las reglas
+                  siguientes:</text:p><text:p text:style-name="Table_20_Contents">a)
+                  De existir herederos, se transferirá la propiedad a
+                  los que acuerden convivir en la vivienda en cuestión,
+                  lo que se realizará ante notario, asumiendo los
+                  adjudicatarios el pago que corresponda a los demás
+                  herederos, y previa la transferencia al Estado de la
+                  propiedad de la vivienda que ocupen como propietarios,
+                  en su caso, por el precio correspondiente de acuerdo
+                  con lo establecido en el artículo 42 inciso
+                  b);</text:p><text:p text:style-name="Table_20_Contents">b)
+                  de existir herederos, si éstos no llegan a acuerdo
+                  sobre quiénes de ellos ocuparán la vivienda, la
+                  cuestión será decidida por la Dirección Municipal de
+                  la Vivienda correspondiente, que preferirá a los que
+                  tengan mayor necesidad
+                  habitacional;</text:p><text:p text:style-name="Table_20_Contents">c)
+                  si ningún heredero aceptare adquirir la propiedad de
+                  la vivienda, ésta se transmitirá al Estado,
+                  procediéndose al pago de su precio a los herederos en
+                  la forma que regula el artículo 42 inciso
+                  b);</text:p><text:p text:style-name="Table_20_Contents">ch)
+                  en el caso de no existir herederos, la vivienda se
+                  transmite a favor del Estado conforme a lo dispuesto
+                  en la legislación
+                  civil.</text:p><text:p text:style-name="Table_20_Contents">En
+                  todo caso los herederos deberán acreditar esa
+                  condición a la Dirección Municipal de la Vivienda
+                  antes del término de un año, contado a partir del
+                  fallecimiento del propietario, transcurrido el cual la
+                  vivienda pasará al Estado, sin perjuicio del derecho
+                  de los herederos a recibir el importe de su precio
+                  legal.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  80. Las personas que se ausenten definitivamente del
+                  país son incapaces de heredar la vivienda que ocupaba
+                  permanentemente el causante y si tiene hijos o
+                  descendientes en el territorio nacional, su porción
+                  corresponde a éstos por representación; a falta de
+                  éstos, acrece a los demás
+                  herederos.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  81. Los que hayan convivido permanentemente durante
+                  cinco años con el propietario de una vivienda cuyos
+                  bienes y derechos sean confiscados por ausencia
+                  definitiva del país, tendrán derecho a adquirir la
+                  propiedad de la vivienda mediante el pago del precio
+                  que regula el artículo 42, inciso b), siempre que se
+                  trate del cónyuge - de matrimonio formalizado o no -
+                  ex-cónyuge o familiar del ausente definitivo hasta el
+                  cuarto grado de consanguinidad y no fuere propietario
+                  de otra
+                  vivienda.</text:p><text:p text:style-name="Table_20_Contents">Si
+                  el causante definitivo hubiera sido copropietario de
+                  la vivienda, el copropietario que haya permanecido en
+                  ella tendrá derecho a adquirir la parte del primero
+                  mediante el pago al Estado de la parte correspondiente
+                  del precio legal de la
+                  vivienda.</text:p><text:p text:style-name="Table_20_Contents">En
+                  los casos a que se refieren los párrafos anteriores la
+                  Dirección Municipal de la Vivienda determinará el
+                  derecho y fijará el precio mediante resolución y la
+                  propiedad se transferirá por el Banco Popular de
+                  Ahorro en representación del
+                  Estado.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  82. No obstante lo dispuesto en los artículos 78
+                  (párrafo segundo) y 81 (párrafo primero), el comité
+                  ejecutivo del órgano municipal del Poder Popular
+                  correspondiente, si concurrieren en el caso
+                  circunstancias que lo justifiquen podrá disponer,
+                  mediante acuerdo fundado, que se transfiera la
+                  propiedad de la vivienda mediante el pago del precio
+                  que corresponda conforme con lo estipulado en el
+                  artículo 42, inciso b), aunque el coocupante no reúna
+                  todos los requisitos de tiempo previo de convivencia o
+                  parentesco con el propietario fallecido o
+                  definitivamente
+                  ausente.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  83. La propiedad de las viviendas utilizadas para el
+                  descanso de sus dueños y ubicadas en playas y otras
+                  zonas de descanso se transmitirá, en caso de muerte de
+                  su propietario, según las normas de la legislación
+                  sucesoria
+                  común.</text:p><text:p text:style-name="Table_20_Contents">En
+                  caso de ausencia definitiva del propietario por
+                  abandono del país, la propiedad pasará al Estado; pero
+                  si se tratase de una copropiedad y uno de los
+                  copropietarios permaneciese en el país, éste podrá
+                  adquirir al Estado la parte correspondiente al
+                  copropietario definitivamente
+                  ausente.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  84. Los que en virtud de lo dispuesto en esta Ley
+                  estén obligados a hacer efectivas indemnizaciones por
+                  derechos ajenos sobre la vivienda que adquieran,
+                  podrán hacerlo mediante pagos mensuales, pero el plazo
+                  máximo de cumplimiento de la obligación no podrá
+                  exceder de diez
+                  años.</text:p><text:p text:style-name="Table_20_Contents">ARTÍCULO
+                  85. La transmisión de derechos sobre viviendas en los
+                  casos de divorcio o de sucesión hereditaria previstos
+                  en esta Ley estará exenta de pago del impuesto sobre
+                  transmisión de bienes inmuebles.</text:p>
+                </table:table-cell>
+              </table:table-row>
+              <table:table-row>
+                <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                  <table:table table:name="Table6" table:style-name="Table6">
+                    <table:table-column table:style-name="Table6.A" />
+                    <table:table-column table:style-name="Table6.B" />
+                    <table:table-row>
+                      <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                        <text:p text:style-name="Table_20_Contents"><text:a xlink:type="simple" xlink:href="vivienda_4.htm" office:name=""><text:span text:style-name="Definition">ANTERIOR</text:span></text:a></text:p>
+                      </table:table-cell>
+                      <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                        <text:p text:style-name="First_20_paragraph"><text:a xlink:type="simple" xlink:href="vivienda_6.htm" office:name=""><text:span text:style-name="Definition">SIGUIENTE</text:span></text:a></text:p>
+                      </table:table-cell>
+                    </table:table-row>
+                  </table:table>
+                </table:table-cell>
+              </table:table-row>
+              <table:table-row>
+                <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                  <text:p text:style-name="Table_20_Contents"><text:a xlink:type="simple" xlink:href="disdocs.htm" office:name=""><text:span text:style-name="Definition">Volver
+                  a
+                  Documentos</text:span></text:a></text:p><text:p text:style-name="Table_20_Contents">[
+                  <text:a xlink:type="simple" xlink:href="file:///C%7C/inoticias.html" office:name=""><text:span text:style-name="Definition">TITULARES</text:span></text:a>
+                  ] [
+                  <text:a xlink:type="simple" xlink:href="file:///C%7C/centro.html" office:name=""><text:span text:style-name="Definition">CENTRO</text:span></text:a>
+                  ]</text:p>
+                </table:table-cell>
+              </table:table-row>
+            </table:table>
+          </table:table-cell>
+        </table:table-row>
+      </table:table>
+    </table:table-cell>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+      <table:table table:name="Table7" table:style-name="Table7">
+        <table:table-column table:style-name="Table7.A" />
+        <table:table-row>
+          <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+            <table:table table:name="Table8" table:style-name="Table8">
+              <table:table-column table:style-name="Table8.A" />
+              <table:table-row>
+                <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                  <text:p text:style-name="Table_20_Contents"><text:a xlink:type="simple" xlink:href="https://www.amazon.com/exec/obidos/redirect-home/cubanetnews" office:name=""><text:span text:style-name="Definition"><draw:frame draw:name="img1" svg:width="120" svg:height="27"><draw:image xlink:href="file:///C%7C/mira/amazon.gif" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" /></draw:frame></text:span></text:a></text:p>
+                </table:table-cell>
+              </table:table-row>
+              <table:table-row>
+                <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                  <text:p text:style-name="Table_20_Contents"><text:span text:style-name="T1">Busque:</text:span><text:line-break />Música
+                  Clásica Música Popular Video LIBROS
+                  Todo<text:line-break /></text:p>
+                </table:table-cell>
+              </table:table-row>
+            </table:table>
+          </table:table-cell>
+        </table:table-row>
+      </table:table><text:p text:style-name="Table_20_Contents"><text:line-break /></text:p><table:table table:name="Table9" table:style-name="Table9">
+        <table:table-column table:style-name="Table9.A" />
+        <table:table-row>
+          <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+            <text:p text:style-name="Table_20_Contents">SECCIONES</text:p><table:table table:name="Table10" table:style-name="Table10">
+              <table:table-column table:style-name="Table10.A" />
+              <table:table-row>
+                <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                  <text:p text:style-name="Table_20_Contents"><text:line-break /></text:p><text:p text:style-name="Table_20_Contents">NOTICIAS<text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/desdcuba.html" office:name=""><text:span text:style-name="Definition">Prensa
+                  Independiente</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/inoticias.html" office:name=""><text:span text:style-name="Definition">Prensa
+                  Internacional</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/govlinks.html" office:name=""><text:span text:style-name="Definition">Prensa
+                  Gubernamental</text:span></text:a><text:line-break /><text:line-break />OTROS
+                  IDIOMAS<text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/cubanews.html" office:name=""><text:span text:style-name="Definition">Inglés</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/german/german.html" office:name=""><text:span text:style-name="Definition">Alemán</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/french.html" office:name=""><text:span text:style-name="Definition">Francés</text:span></text:a><text:line-break /><text:line-break />INDEPENDIENTES<text:line-break /><text:a xlink:type="simple" xlink:href="file:///C%7C/cooperativa/pagina.html" office:name=""><text:span text:style-name="Definition">...Cooperativas
+                  Agrícolas</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/sindical/sindical.html" office:name=""><text:span text:style-name="Definition">Movimiento
+                  Sindical</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/ref/dis/04029801.htm" office:name=""><text:span text:style-name="Definition">Bibliotecas</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/mcl/mcl.html" office:name=""><text:span text:style-name="Definition">MCL</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/ref/dis/ayuno.htm" office:name=""><text:span text:style-name="Definition">Ayuno</text:span></text:a><text:line-break /><text:line-break />DEL
+                  LECTOR<text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/cartas2ed.html" office:name=""><text:span text:style-name="Definition">Cartas</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/debates.html" office:name=""><text:span text:style-name="Definition">Debate</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/opiniones.html" office:name=""><text:span text:style-name="Definition">Opinión</text:span></text:a><text:line-break /><text:line-break />BUSQUEDAS<text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/oldies.html" office:name=""><text:span text:style-name="Definition">Archivos</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/search.html" office:name=""><text:span text:style-name="Definition">Búsquedas</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/ref/dis/disdocs.htm" office:name=""><text:span text:style-name="Definition">Documentos</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/links.html" office:name=""><text:span text:style-name="Definition">Enlaces</text:span></text:a><text:line-break /><text:line-break />CULTURA<text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/painters.html" office:name=""><text:span text:style-name="Definition">Artes
+                  Plásticas</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/fotoindex.html" office:name=""><text:span text:style-name="Definition">Fotos
+                  de
+                  Cuba</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/cigarh.html" office:name=""><text:span text:style-name="Definition">Anillas
+                  de
+                  Tabaco</text:span></text:a><text:line-break /><text:line-break />CUBANET<text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/reg.htm" office:name=""><text:span text:style-name="Definition">Semanario</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/somos.html" office:name=""><text:span text:style-name="Definition">Quiénes
+                  Somos</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="file:///C%7C/ref/informe98.html" office:name=""><text:span text:style-name="Definition">Informe
+                  1998</text:span></text:a><text:line-break />...<text:a xlink:type="simple" xlink:href="/cdn-cgi/l/email-protection#2c4f594e4d4249586c4f594e4d42495802435e4b004f594e4d424958426c4d4340024f4341" office:name=""><text:span text:style-name="Definition">Correo
+                  Electrónico</text:span></text:a></text:p>
+                </table:table-cell>
+              </table:table-row>
+            </table:table>
+          </table:table-cell>
+        </table:table-row>
+      </table:table><text:p text:style-name="Table_20_Contents"><text:line-break /></text:p><table:table table:name="Table11" table:style-name="Table11">
+        <table:table-column table:style-name="Table11.A" />
+        <table:table-row>
+          <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+            <table:table table:name="Table12" table:style-name="Table12">
+              <table:table-column table:style-name="Table12.A" />
+              <table:table-row>
+                <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+                  <text:p text:style-name="Table_20_Contents"><text:span text:style-name="T1">CubaNet
+                  News, Inc.</text:span><text:line-break />145 Madeira
+                  Ave, Suite 207<text:line-break />Coral Gables, FL
+                  33134<text:line-break />(305) 774-1887</text:p>
+                </table:table-cell>
+              </table:table-row>
+            </table:table>
+          </table:table-cell>
+        </table:table-row>
+      </table:table>
+    </table:table-cell>
+  </table:table-row>
+</table:table>
+</office:text>
+</office:body>
+</office:document-content>

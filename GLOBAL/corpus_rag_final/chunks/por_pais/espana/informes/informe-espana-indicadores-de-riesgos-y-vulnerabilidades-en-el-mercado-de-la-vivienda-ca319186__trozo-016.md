@@ -1,0 +1,19 @@
+---
+id: "rag-reports-bde-es-bde-do2314-riesgos-vulnerabilidades-vivienda-pdf__trozo_016"
+tipo_documento: "chunk"
+categoria: "informes"
+pais_codigo: "es"
+pais: "España"
+documento_padre: "documentos/por_pais/espana/informes/informe-espana-indicadores-de-riesgos-y-vulnerabilidades-en-el-mercado-de-la-vivienda-ca319186.md"
+orden_chunk: 16
+titulo: "MAPA DE RIESGOS DEL MERCADO DE LA VIVIENDA EN ESPAÑA DESDE 2000 (2)"
+caracteres: 3381
+---
+# MAPA DE RIESGOS DEL MERCADO DE LA VIVIENDA EN ESPAÑA DESDE 2000 (2)
+
+## MAPA DE RIESGOS DEL MERCADO DE LA VIVIENDA EN ESPAÑA DESDE 2000
+
+BANCO DE ESPAÑA17DOCUMENTO OCASIONAL N.º 2314 alerta elevados, aunque decrecientes, como resultado del prolongado período de tiempo que llevó el proceso de saneamiento de los balances bancarios. En el ámbito de los estándares crediticios de los nuevos préstamos para la compra de vivienda apenas se produjeron señales de alerta durante esta etapa. Únicamente la relación préstamo-valor media (loan-to-value, en inglés) muestra señales de alerta algo más persistentes e intensas, mientras que la proporción de hipotecas con una relación préstamo-valor por encima del 80 % (que es una medida de la prudencia en la concesión de crédito bancario) evidencia niveles de alerta más moderados y puntuales. En el caso de los indicadores de valoración de la vivienda, destaca la alerta en el crecimiento de los precios del alquiler. En el bloque de la situación patrimonial de los hogares, hay señales persistentes de alerta para la tasa de ahorro, que se mantuvo en valores históricamente reducidos, y unas alertas decrecientes en el caso de la ratio de endeudamiento, lo que muestra la lentitud con la que se corrigió este desequilibrio.
+La irrupción de la pandemia del COVID-19 se produjo en un momento en el que el ciclo del mercado de la vivienda en España se encontraba en una fase de madurez y en el que no había indicios claros de desequilibrios en este mercado. La actividad inmobiliaria descendió bruscamente en los primeros meses de la pandemia, afectada por las restricciones a la movilidad introducidas por las autoridades. Durante 2020 desaparecieron las alertas que se venían detectando en los años anteriores en relación con el ahorro de las familias, ya que la crisis sanitaria llevó a un fuerte repunte de la tasa de ahorro (gracias al ahorro forzoso por las restricciones11). También desapareció la alerta de los precios del alquiler, ya que estos se moderaron.
+A partir de 2021, las importantes bolsas de ahorro acumuladas por los hogares, las nuevas necesidades de las familias surgidas por el incremento del teletrabajo, los históricamente reducidos tipos de interés de los nuevos préstamos y el efecto rebote de la actividad, que se había paralizado durante la fase más aguda de la pandemia, se tradujeron en un fuerte impulso de la demanda de vivienda y de los volúmenes de crédito. Así, las nuevas operaciones de crédito para la compra de vivienda han crecido con intensidad durante 2021 y la primera mitad de 2022, llevando a que apareciesen algunas señales de alerta en los indicadores que recogen el crecimiento del crédito. Las tasas de variación anual de algunos indicadores de actividad también han mostrado ciertas señales de alerta, pero se explican en parte por efectos base, y únicamente en el caso de las compraventas de vivienda han sido más persistentes. Hacia el final del año 2022 se empezó a observar una ralentización de las compraventas de vivienda y del crédito concedido, vinculada en gran medida al endurecimiento de la política monetaria, que se tradujo en un fuerte aumento de los costes de financiación. Ello llevó a la desaparición de las alertas ligadas a la actividad del mercado inmobiliario e hipotecario.
+Los precios de compraventa se aceleraron a partir de 2021, lo que llevó a que algunos indicadores de valoración de los precios empezaran a dar señales moderadas de

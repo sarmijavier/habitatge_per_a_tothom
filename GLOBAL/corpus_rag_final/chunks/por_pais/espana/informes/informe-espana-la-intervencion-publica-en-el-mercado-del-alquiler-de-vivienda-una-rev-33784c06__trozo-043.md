@@ -1,0 +1,22 @@
+---
+id: "rag-reports-bde-es-bde-do2002-intervencion-publica-alquiler-revision-internacional-pdf__trozo_043"
+tipo_documento: "chunk"
+categoria: "informes"
+pais_codigo: "es"
+pais: "España"
+documento_padre: "documentos/por_pais/espana/informes/informe-espana-la-intervencion-publica-en-el-mercado-del-alquiler-de-vivienda-una-rev-33784c06.md"
+orden_chunk: 43
+titulo: "LV CZ LT EE LU PT DE JP US NZ ES HU CA NO AUS MT SE KO PL FI IC IE FR UK AT DK NL (1)"
+caracteres: 3865
+---
+# LV CZ LT EE LU PT DE JP US NZ ES HU CA NO AUS MT SE KO PL FI IC IE FR UK AT DK NL (1)
+
+## LV CZ LT EE LU PT DE JP US NZ ES HU CA NO AUS MT SE KO PL FI IC IE FR UK AT DK NL
+
+En % del stock total de viviendas
+
+BANCO DE ESPAÑA29DOCUMENTO OCASIONAL N.º 2002
+En primer lugar, la creación y el mantenimiento de un parque de vivienda pública de alquiler es una política costosa, cuya implementación requiere una dotación permanente de ingresos públicos, o bien la reducción de otras partidas del gasto. El elevado coste de esta política explica, en buena medida, el retroceso observado en las últimas décadas en algunos de los países de la OCDE que la habían utilizado intensamente, como, por ejemplo, Estados Unidos o Alemania. En el caso de Estados Unidos, el elevado coste de mantenimiento de un parque de vivienda envejecida se considera que fue un factor clave para explicar la demolición de más de 300.000 viviendas destinadas al alquiler social en los veinte últimos años [Collinson et al. (2016)]. En Alemania se ha producido una reducción paulatina del stock de vivienda de alquiler social, en buena medida por la privatización del parque público existente, así como por la normativa que permite arrendar a precios de mercado viviendas destinadas al alquiler social de titularidad privada tras veinte años de precios regulados [Pesdel Institute (2012), OECD (2016) y OECD (2019a)]. Adicionalmente, se han demolido viviendas de alquiler social de baja calidad que no han sido reemplazadas por la escasa promoción de nueva vivienda de alquiler a precios regulados por parte de los länder, que tienen esta competencia desde 2006.
+Por otro lado, entre el conjunto de efectos no deseados que limitan la eficacia de la política de provisión pública de vivienda de alquiler, destaca el posible efecto desplazamiento sobre la oferta del sector privado. El incremento de la oferta de alquiler a menores precios podría reducir los incentivos de promotores y propietarios a poner en el mercado de arrendamiento nuevos inmuebles, limitando así el incremento de la oferta agregada de alquiler residencial. En el caso de Estados Unidos, Sinai y Waldfogel (2005)
+muestran evidencia de este fenómeno estimando un desplazamiento, en promedio, de dos tercios de la oferta privada de alquiler residencial como consecuencia de los programas de provisión pública de vivienda social. Este efecto fue particularmente relevante en áreas metropolitanas, en las que se detectó una menor demanda de alquiler residencial.
+Al mismo tiempo, la provisión pública de vivienda en alquiler, dependiendo del diseño de la política concreta, puede generar tanto problemas de inequidad intergeneracional como efectos negativos en los incentivos de los beneficiarios. En concreto, la asignación de un alquiler regulado a hogares con bajos niveles de renta inicial generaría problemas de equidad intergeneracional si este es indefinido y no se condiciona el mantenimiento del alquiler a la evolución de sus ingresos a lo largo del tiempo. Por otro lado, condicionar la asignación de la vivienda a no sobrepasar determinados umbrales de ingresos podría desincentivar el aumento de las rentas reportadas por los beneficiarios, debido al coste de oportunidad que supondría perder el acceso a la vivienda [Andrews et al. (2011)]. Finalmente, la literatura económica ha destacado los costes de eficiencia asociados a la provisión pública o a la subvención directa del consumo de determinados bienes por motivos redistributivos. En concreto, la provisión pública de vivienda sería una política redistributiva ineficiente, frente a una política de transferencias en efectivo no condicionadas (por ejemplo, subsidios o beneficios fiscales sobre la renta no vinculados al consumo) que permitiera a sus receptores ajustar tanto su cesta de consumo (por ejemplo, entre vivienda y el resto de los bienes) como su oferta de trabajo de acuerdo con sus preferencias individuales [Currie y Gahvari (2008)].

@@ -1,0 +1,43 @@
+---
+id: "rag-reports-mivau-special-es-mivau-boletin-especial-vivienda-social-2020-pdf__trozo_072"
+tipo_documento: "chunk"
+categoria: "informes"
+pais_codigo: "es"
+pais: "España"
+documento_padre: "documentos/por_pais/espana/informes/informe-espana-observatorio-de-vivienda-y-suelo-boletin-especial-vivienda-social-2020-1c4b6065.md"
+orden_chunk: 72
+titulo: "2019 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 a ARAGÓN"
+caracteres: 1214
+---
+# 2019 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 a ARAGÓN
+
+## 2019 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 a ARAGÓN
+
+Camas 27.509 7.020 4.840
+Carmona 28.531
+Coria del Río 30.777 39.806 181.595 4.106.170 101.058 44.920 181.595 92.418 90.363 88.130 102.704
+Dos Hermanas 133.968 842.800 550.352 624.648 733.355 698.784 550.352 590.865 704.272 515.393 1.298.429
+Écija 39.873 1
+Lebrija 27.524 12.000
+Mairena del
+Alcor 23.550
+Mairena del
+Aljarafe 46.089
+Morón de la
+Frontera 27.627 189.135 203.597 214.859 119.252 203.597 359.794 325.311 261.438 163.000
+Palacios y
+Villafranca, Los 38.354
+Rinconada, La 38.628 1.072.597 1.072.597 6.000.882 1.000.980 150.003
+San Juan de
+Aznalfarache 21.416 1.251.623 20.007 27.459 27.708 20.007 15.656 5.453 141.686
+Sevilla 688.592 373.834 4.077.450 519.859 583.020 3.913.861 4.077.450 5.428.973 3.627.564 4.334.288 4.417.700
+Tomares 25.359
+Utrera 50.728 6.794 64.564 64.564 109.474 103.801 695.693 166.000
+
+Huesca
+Huesca 53.132 23.503 87.832 2.791 3.825 23.503 165.580 137.345 100.857 184.800
+Teruel
+Teruel 35.890 171.664 34.981 346.529 281.885 23.988 34.981 35.003 31.899 209.041 368.500
+Zaragoza
+Calatayud 20.024
+Zaragoza 674.997 14.695.610 5.452.607 4.824.684 5.412.342 4.912.342 5.452.607 10.238.760 13.107.289 14.078.414 8.637.161

@@ -1,0 +1,72 @@
+---
+id: "rag-reports-mivau-special-es-mivau-boletin-especial-censo-viviendas-2021-pdf__trozo_085"
+tipo_documento: "chunk"
+categoria: "informes"
+pais_codigo: "es"
+pais: "España"
+documento_padre: "documentos/por_pais/espana/informes/informe-espana-observatorio-de-vivienda-y-suelo-boletin-especial-censo-de-viviendas-2-52d0cd50.md"
+orden_chunk: 85
+titulo: "SECRETARÍA GENERAL DE AGENDA URBANA, VIVIENDA Y ARQUITECTURA 86 a SECRETARÍA GENERAL DE AGENDA URBANA, VIVIENDA Y ARQUITECTURA 92 (5)"
+caracteres: 1758
+---
+# SECRETARÍA GENERAL DE AGENDA URBANA, VIVIENDA Y ARQUITECTURA 86 a SECRETARÍA GENERAL DE AGENDA URBANA, VIVIENDA Y ARQUITECTURA 92 (5)
+
+## SECRETARÍA GENERAL DE AGENDA URBANA, VIVIENDA Y ARQUITECTURA 86 a SECRETARÍA GENERAL DE AGENDA URBANA, VIVIENDA Y ARQUITECTURA 92
+
+33 Asturias 674.342 15.608 2,31 613.905 60.437 8,96 44.829 6,65
+
+37 Salamanca 246.123 5.646 2,29 236.869 9.254 3,76 3.608 1,47
+
+34 Palencia 116.431 2.669 2,29 112.221 4.210 3,62 1.541 1,32
+
+18 Granada 573.717 12.899 2,25 532.088 41.629 7,26 28.730 5,01
+
+OBSERVATORIO DE VIVIENDA Y SUELO Boletín Especial Censo de Viviendas 2021
+
+DIRECCIÓN GENERAL DE VIVIENDA Y SUELO
+
+Viviendas familiares
+VF nueva
+2011-2021
+% VF nuevas
+/ VF 2021
+Viviendas familiares
+Variación VF
+2011-2021
+% Var./VF
+Diferencia
+Var. VF - VF
+nuevas
+% Diferencia
+/ VF 2021 (uds.) (uds.) (%) (uds.) (uds.) (%) (uds.) (%)
+Total Nacional 26.626.315 734.659 2,76 25.208.623 1.417.692 5,32 683.033 2,57
+
+08 Barcelona 2.597.046 56.875 2,19 2.603.097 -6.051 -0,23 -62.926 -2,42
+
+25 Lleida 256.081 5.570 2,18 244.841 11.240 4,39 5.670 2,21
+
+21 Huelva 320.916 6.626 2,06 287.807 33.109 10,32 26.483 8,25
+
+32 Ourense 272.883 5.450 2,00 245.970 26.913 9,86 21.463 7,87
+
+47 Valladolid 296.910 5.692 1,92 287.951 8.959 3,02 3.267 1,10
+
+49 Zamora 155.611 2.865 1,84 138.795 16.816 10,81 13.951 8,97
+
+Tenerife 537.469 9.708 1,81 508.887 28.582 5,32 18.874 3,51
+
+24 León 354.751 5.721 1,61 325.107 29.644 8,36 23.923 6,74
+
+12 Castellón/Castelló 446.872 7.003 1,57 420.421 26.451 5,92 19.448 4,35
+
+46 Valencia/València 1.488.908 23.200 1,56 1.452.545 36.363 2,44 13.163 0,88
+
+35 Palmas, Las 551.259 8.441 1,53 532.058 19.201 3,48 10.760 1,95
+
+Fuente: INE (Censos 2011 y 2021) y elaboración propia.
+
+OBSERVATORIO DE VIVIENDA Y SUELO Boletín Especial Censo de Viviendas 2021
+
+DIRECCIÓN GENERAL DE VIVIENDA Y SUELO
+
+SECRETARÍA GENERAL DE AGENDA URBANA, VIVIENDA Y ARQUITECTURA 93

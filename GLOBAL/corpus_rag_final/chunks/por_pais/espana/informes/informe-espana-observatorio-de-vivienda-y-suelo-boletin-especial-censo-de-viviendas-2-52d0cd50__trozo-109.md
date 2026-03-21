@@ -1,0 +1,139 @@
+---
+id: "rag-reports-mivau-special-es-mivau-boletin-especial-censo-viviendas-2021-pdf__trozo_109"
+tipo_documento: "chunk"
+categoria: "informes"
+pais_codigo: "es"
+pais: "España"
+documento_padre: "documentos/por_pais/espana/informes/informe-espana-observatorio-de-vivienda-y-suelo-boletin-especial-censo-de-viviendas-2-52d0cd50.md"
+orden_chunk: 109
+titulo: "TABLA POR PROVINCIAS. a SECRETARÍA GENERAL DE AGENDA URBANA, VIVIENDA Y ARQUITECTURA 130 (1)"
+caracteres: 3622
+---
+# TABLA POR PROVINCIAS. a SECRETARÍA GENERAL DE AGENDA URBANA, VIVIENDA Y ARQUITECTURA 130 (1)
+
+## TABLA POR PROVINCIAS. a SECRETARÍA GENERAL DE AGENDA URBANA, VIVIENDA Y ARQUITECTURA 130
+
+Viviendas principales convencionales según tipo de tenencia en 2021 (unidades y %).
+Viviendas principales
+En propiedad propiedad /
+VP En alquiler alquiler / VP Otro régimen de tenencia otro régimen
+/ VP
+(uds.) (uds.) (%) (uds.) (%) (uds.) (%)
+Total Nacional 18.536.616 13.988.627 75,5 2.983.619 16,1 1.564.370 8,4
+
+52 Melilla 25534 15843 62,0 8065 31,6 1626 6,4
+
+17 Girona 298.924 200.314 67,0 71.841 24,0 26.769 9,0
+
+08 Barcelona 2.197.826 1.509.646 68,7 522.538 23,8 165.642 7,5
+
+07 Balears, Illes 441.536 292.570 66,3 103.526 23,4 45.440 10,3
+
+Tenerife 397426 258696 65,1 88138 22,2 50592 12,7
+
+35 Palmas, Las 422889 272784 64,5 92048 21,8 58057 13,7
+
+25 Lleida 169763 117840 69,4 36509 21,5 15414 9,1
+
+28 Madrid 2546489 1885554 74,0 525834 20,6 135101 5,3
+
+43 Tarragona 322844 238791 74,0 61397 19,0 22656 7,0
+
+19 Guadalajara 104311 77946 74,7 18880 18,1 7485 7,2
+
+51 Ceuta 25380 18138 71,5 4525 17,8 2717 10,7
+
+50 Zaragoza 395356 303452 76,8 65506 16,6 26398 6,7
+
+50 Zaragoza 395356 303452 76,8 65506 16,6 26398 6,7
+
+30 Murcia 540497 414794 76,7 84578 15,6 41125 7,6
+
+04 Almería 274.943 200.000 72,7 42.653 15,5 32.290 11,7
+
+03 Alicante/Alacant 754.099 581.226 77,1 114.748 15,2 58.125 7,7
+
+22 Huesca 90244 67567 74,9 13591 15,1 9086 10,1
+
+20 Gipuzkoa 298409 246014 82,4 43790 14,7 8605 2,9
+
+01 Araba/Álava 140.218 116.873 83,4 19.985 14,3 3.360 2,4
+
+40 Segovia 63353 47797 75,4 8827 13,9 6729 10,6
+
+15 Coruña, A 453.349 333.837 73,6 63.017 13,9 56.495 12,5
+
+46 Valencia/València 1030071 806426 78,3 142212 13,8 81433 7,9
+
+47 Valladolid 216117 168869 78,1 29088 13,5 18160 8,4
+
+24 León 198550 152345 76,7 26469 13,3 19736 9,9
+
+31 Navarra 256330 205146 80,0 33777 13,2 17407 6,8
+
+29 Málaga 660335 516544 78,2 86486 13,1 57305 8,7
+
+33 Asturias 446569 339885 76,1 58184 13,0 48500 10,9
+
+18 Granada 367986 282615 76,8 46985 12,8 38386 10,4
+
+21 Huelva 200494 156535 78,1 24787 12,4 19172 9,6
+
+48 Bizkaia 480876 407409 84,7 58962 12,3 14505 3,0
+
+12 Castellón/Castelló 238.331 187.204 78,5 29.169 12,2 21.958 9,2
+
+42 Soria 37971 30210 79,6 4643 12,2 3118 8,2
+
+45 Toledo 269362 211058 78,4 31297 11,6 27007 10,0
+
+09 Burgos 152.299 123.382 81,0 17.661 11,6 11.256 7,4
+
+39 Cantabria 238230 185093 77,7 27565 11,6 25572 10,7
+
+36 Pontevedra 366506 271662 74,1 42000 11,5 52844 14,4
+
+OBSERVATORIO DE VIVIENDA Y SUELO Boletín Especial Censo de Viviendas 2021
+
+DIRECCIÓN GENERAL DE VIVIENDA Y SUELO
+
+Viviendas principales
+En propiedad propiedad /
+VP En alquiler alquiler / VP Otro régimen de tenencia otro régimen
+/ VP
+(uds.) (uds.) (%) (uds.) (%) (uds.) (%)
+Total Nacional 18.536.616 13.988.627 75,5 2.983.619 16,1 1.564.370 8,4
+
+26 Rioja, La 132241 106949 80,9 14963 11,3 10329 7,8
+
+11 Cádiz 468.478 375.300 80,1 51.952 11,1 41.226 8,8
+
+16 Cuenca 80.906 62.742 77,5 8.937 11,0 9.227 11,4
+
+10 Cáceres 168.207 131.908 78,4 18.326 10,9 17.973 10,7
+
+37 Salamanca 143233 117135 81,8 15590 10,9 10508 7,3
+
+02 Albacete 151.234 121.934 80,6 16.176 10,7 13.124 8,7
+
+41 Sevilla 723379 585489 80,9 75321 10,4 62569 8,6
+
+05 Ávila 69.768 54.811 78,6 7.197 10,3 7.760 11,1
+
+27 Lugo 137555 106044 77,1 14015 10,2 17496 12,7
+
+44 Teruel 54625 41993 76,9 5527 10,1 7105 13,0
+
+34 Palencia 68354 55733 81,5 6567 9,6 6054 8,9
+
+13 Ciudad Real 193.882 158.427 81,7 17.643 9,1 17.812 9,2
+
+14 Córdoba 299.346 241.516 80,7 25.941 8,7 31.889 10,7
+
+06 Badajoz 266.157 210.424 79,1 21.234 8,0 34.499 13,0
+
+Fuente: INE (Censo 2021) y elaboración propia.
+
+OBSERVATORIO DE VIVIENDA Y SUELO Boletín Especial Censo de Viviendas 2021
+
+DIRECCIÓN GENERAL DE VIVIENDA Y SUELO

@@ -1,0 +1,14 @@
+country_code,country,event_year,event_date,instrument_type,policy_topic,source_file
+es,Espana,1994,1994-11-24,Ley,arrendamientos urbanos,legal/es/es_ley_1994_lau.xml
+es,Espana,2012,2012-03-09,Real Decreto-ley,proteccion de deudores hipotecarios,legal/es/es_rdl_2012_deudores.xml
+es,Espana,2013,2013-05-14,Ley,mercado hipotecario y deudores,legal/es/es_ley_2013_hipotecarios.xml
+es,Espana,2018,2018-12-14,Real Decreto-ley,reforma del alquiler,legal/es/es_rdl_2018_alquiler.xml
+es,Espana,2019,2019-03-01,Real Decreto-ley,reforma del alquiler,legal/es/es_rdl_2019_alquiler.xml
+es,Espana,2019,2019-03-15,Ley,credito inmobiliario,legal/es/es_ley_2019_credito.xml
+es,Espana,2020,2020-03-31,Real Decreto-ley,medidas alquiler covid,legal/es/es_rdl_2020_alquiler_covid.xml
+es,Espana,2020,2020-03-31,Real Decreto-ley,medidas vivienda covid,legal/es/es_rdl_2020_vivienda_covid.xml
+es,Espana,2023,2023-05-24,Ley,ley de vivienda,legal/es/es_ley_2023_vivienda.xml
+sg,Singapur,1959,1959-01-01,Act,vivienda publica y desarrollo,legal/sg/sg_hda_1959_housing_development_act.html
+sg,Singapur,1976,1976-01-01,Act,restricciones a propiedad residencial extranjera,legal/sg/sg_rpa_1976_residential_property_act.html
+cu,Cuba,1988,1988-12-23,Ley,ley general de la vivienda,legal/cu/raw/cu_ley_65_1988_vivienda_general.xml
+cu,Cuba,2016,2016-01-01,Decreto-ley,actualizacion normativa de vivienda,legal/cu/raw/cu_dl_2016_vivienda.pdf

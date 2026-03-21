@@ -1,0 +1,151 @@
+---
+id: "rag-reports-mivau-special-es-mivau-boletin-especial-censo-viviendas-2021-pdf__trozo_086"
+tipo_documento: "chunk"
+categoria: "informes"
+pais_codigo: "es"
+pais: "España"
+documento_padre: "documentos/por_pais/espana/informes/informe-espana-observatorio-de-vivienda-y-suelo-boletin-especial-censo-de-viviendas-2-52d0cd50.md"
+orden_chunk: 86
+titulo: "TABLA DE MUNICIPIOS DE MÁS DE 50.000 HABITANTES. a 48044 Getxo 34.366 33.062 30.426 30.197 3.940 2.865 88,54 91,33 11,46 8,67 (1)"
+caracteres: 3878
+---
+# TABLA DE MUNICIPIOS DE MÁS DE 50.000 HABITANTES. a 48044 Getxo 34.366 33.062 30.426 30.197 3.940 2.865 88,54 91,33 11,46 8,67 (1)
+
+## TABLA DE MUNICIPIOS DE MÁS DE 50.000 HABITANTES. a 48044 Getxo 34.366 33.062 30.426 30.197 3.940 2.865 88,54 91,33 11,46 8,67
+
+Viviendas familiares: parque total y parque construido entre 2011-2021 (unidades y %).
+Viviendas familiares
+VF
+nueva
+2011-
+VF
+nuevas /
+VF 2021
+Viviendas familiares
+Var. VF
+2011-
+Var./VF
+Diferencia
+Var. VF -
+VF nuevas
+Diferencia
+/ VF 2021 (uds.) (uds.) (%) (uds.) (uds.) (%) (uds.) (%)
+
+28123 Rivas-Vaciamadrid 35980 7743 21,52 25374 10.606 29,48 2.863 7,96
+
+28022 Boadilla del Monte 19874 3604 18,13 16380 3.494 17,58 -110 -0,55
+
+28065 Getafe 79835 12393 15,52 68984 10.851 13,59 -1.542 -1,93
+
+28113 Pinto 21507 2326 10,82 19695 1.812 8,43 -514 -2,39
+
+52001 Melilla 29347 3013 10,27 26233 3.114 10,61 101 0,34
+
+28134 San Sebastián de los Reyes 36032 3318 9,21 32465 3.567 9,90 249 0,69
+
+28045 Colmenar Viejo 20461 1855 9,07 18927 1.534 7,50 -321 -1,57
+
+03099 Orihuela 88.508 7.117 8,04 69.486 19.022 21,49 11.905 13,45
+
+08205 Sant Cugat del Vallès 35770 2701 7,55 33336 2.434 6,80 -267 -0,75
+
+31201 Pamplona/Iruña 94761 6582 6,95 90177 4.584 4,84 -1.998 -2,11
+
+41038 Dos Hermanas 56736 3630 6,40 50651 6.085 10,73 2.455 4,33
+
+44216 Teruel 21490 1374 6,39 18999 2.491 11,59 1.117 5,20
+
+28148 Torrejón de Ardoz 50494 3196 6,33 49209 1.285 2,54 -1.911 -3,78
+
+28115 Pozuelo de Alarcón 32327 1971 6,10 29840 2.487 7,69 516 1,60
+
+01059 Vitoria-Gasteiz 119.853 7.273 6,07 111.247 8.606 7,18 1.333 1,11
+
+28005 Alcalá de Henares 79588 4779 6,00 78917 671 0,84 -4.108 -5,16
+
+42173 Soria 25244 1512 5,99 23587 1.657 6,56 145 0,57
+
+28014 Arganda del Rey 21573 1269 5,88 20458 1.115 5,17 -154 -0,71
+
+28080 Majadahonda 25577 1494 5,84 24645 932 3,64 -562 -2,20
+
+28092 Móstoles 82103 4680 5,70 79592 2.511 3,06 -2.169 -2,64
+
+28127 Rozas de Madrid, Las 35404 1890 5,34 35388 16 0,05 -1.874 -5,29
+
+45168 Toledo 40498 2074 5,12 37880 2.618 6,46 544 1,34
+
+20045 Irun 28045 1399 4,99 26822 1.223 4,36 -176 -0,63
+
+30024 Lorca 42431 2116 4,99 36985 5.446 12,83 3.330 7,85
+
+29051 Estepona 50366 2501 4,97 50082 284 0,56 -2.217 -4,40
+
+20069 Donostia/San Sebastián 94733 4549 4,80 88327 6.406 6,76 1.857 1,96
+
+51001 Ceuta 28315 1342 4,74 26652 1.663 5,87 321 1,13
+
+19130 Guadalajara 41937 1945 4,64 40199 1.738 4,14 -207 -0,49
+
+15078 Santiago de Compostela 56746 2627 4,63 56176 570 1,00 -2.057 -3,62
+
+10037 Cáceres 53756 2208 4,11 50293 3.463 6,44 1.255 2,33
+
+28161 Valdemoro 28896 1165 4,03 27598 1.298 4,49 133 0,46
+
+28006 Alcobendas 42744 1717 4,02 41180 1.564 3,66 -153 -0,36
+
+14021 Córdoba 155400 6008 3,87 152718 2.682 1,73 -3.326 -2,14
+
+28074 Leganés 77962 2983 3,83 75514 2.448 3,14 -535 -0,69
+
+03133 Torrevieja 122.736 4.684 3,82 122.327 409 0,33 -4.275 -3,48
+
+28007 Alcorcón 70601 2565 3,63 70857 -256 -0,36 -2.821 -4,00
+
+02003 Albacete 86.881 3.154 3,63 83.229 3.652 4,20 498 0,57
+
+36038 Pontevedra 42646 1530 3,59 39558 3.088 7,24 1.558 3,65
+
+50297 Zaragoza 338961 12075 3,56 326932 12.029 3,55 -46 -0,01
+
+29070 Mijas 62030 2158 3,48 50806 11.224 18,09 9.066 14,62
+
+26089 Logroño 78908 2733 3,46 77650 1.258 1,59 -1.475 -1,87
+
+OBSERVATORIO DE VIVIENDA Y SUELO Boletín Especial Censo de Viviendas 2021
+
+DIRECCIÓN GENERAL DE VIVIENDA Y SUELO
+
+Viviendas familiares
+VF
+nueva
+2011-
+VF
+nuevas /
+VF 2021
+Viviendas familiares
+Var. VF
+2011-
+Var./VF
+Diferencia
+Var. VF -
+VF nuevas
+Diferencia
+/ VF 2021 (uds.) (uds.) (%) (uds.) (uds.) (%) (uds.) (%)
+
+08015 Badalona 91915 3141 3,42 92873 -958 -1,04 -4.099 -4,46
+
+22125 Huesca 29309 1001 3,42 28284 1.025 3,50 24 0,08
+
+13034 Ciudad Real 41592 1411 3,39 38005 3.587 8,62 2.176 5,23
+
+08200 Sant Boi de Llobregat 33904 1136 3,35 34508 -604 -1,78 -1.740 -5,13
+
+30027 Molina de Segura 32908 1099 3,34 31408 1.500 4,56 401 1,22
+
+08073 Cornellà de Llobregat 37034 1219 3,29 36662 372 1,00 -847 -2,29
+
+07026 Eivissa 23938 784 3,28 22889 1.049 4,38 265 1,11
+
+08169 Prat de Llobregat, El 26518 851 3,21 27081 -563 -2,12 -1.414 -5,33

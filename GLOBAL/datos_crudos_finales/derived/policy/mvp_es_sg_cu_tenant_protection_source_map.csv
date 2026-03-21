@@ -1,0 +1,4 @@
+country_code,country,primary_legal_source,secondary_legal_source,comparative_policy_source,notes
+es,Espana,legal/es/es_ley_1994_lau.xml,legal/es/es_rdl_2019_alquiler.xml,metadata/oecd/policy/oecd_ph6_1_rental_regulation.xlsx,Base de duracion contractual y actualizaciones de renta
+sg,Singapur,legal/sg/sg_hda_1959_housing_development_act.html,legal/sg/sg_rpa_1976_residential_property_act.html,metadata/oecd/policy/oecd_ph6_1_rental_regulation.xlsx,Proteccion mas indirecta via oferta publica y regulacion de acceso
+cu,Cuba,legal/cu/raw/cu_ley_65_1988_vivienda_general.xml,legal/cu/raw/cu_dl_2016_vivienda.pdf,metadata/oecd/policy/oecd_ph6_1_rental_regulation.xlsx,Caso extremo de intervencion estatal; fuente legal parcial

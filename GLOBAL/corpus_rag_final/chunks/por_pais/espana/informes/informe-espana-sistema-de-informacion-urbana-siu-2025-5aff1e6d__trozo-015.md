@@ -1,0 +1,20 @@
+---
+id: "rag-reports-es-es-mivau-siu-2025-pdf__trozo_015"
+tipo_documento: "chunk"
+categoria: "informes"
+pais_codigo: "es"
+pais: "España"
+documento_padre: "documentos/por_pais/espana/informes/informe-espana-sistema-de-informacion-urbana-siu-2025-5aff1e6d.md"
+orden_chunk: 15
+titulo: "Bloque 1 a ACTUALIZACIÓN (15)"
+caracteres: 3786
+---
+# Bloque 1 a ACTUALIZACIÓN (15)
+
+## Bloque 1 a ACTUALIZACIÓN
+
+La presente publicación, de acuerdo con el modelo de datos del SIU descrito anteriormente, ofrece la información de los municipios incluidos en el SIU a fecha de 31 de mayo de 2025 y se estructura en dos bloques: clases de suelo SIU y Áreas de
+Desarrollo. No obstante, debe destacarse que su objetivo no es la publicación íntegra de todos los datos contenidos en el SIU
+–a los que se puede acceder a través de su visor cartográfico, tanto a nivel gráfico como alfanumérico—, sino ofrecer los principales datos agregados a nivel de municipio, área urbana, provincia y comunidad autónoma. De esta forma, para cada una de las comunidades autónomas se recoge, en primer lugar, un resumen de los municipios integrados en el SIU. Este resumen incluye el número de municipios cuyo planeamiento urbanístico está incorporado en el SIU, así como el porcentaje que representan con respecto al total de municipios de la comunidad autónoma, con respecto al número de municipios que cuentan con planeamiento urbanístico municipal –conviene resaltar que aún existen más de 1.367 municipios en España que carecen de instrumentos de planeamiento urbanístico a nivel municipal— y a los principales municipios, entendidos como aquellos que cuentan con más de 25.000 habitantes o que forman parte de áreas urbanas. Además, se ofrece como referencia la población total de los municipios integrados en el SIU, indicando el porcentaje que representan respecto al total de la población de la CCAA así como respecto a la población residente en áreas urbanas. También a nivel de comunidad autónoma, se presenta, a modo de referencia, una estadística de los tipos de figura de planeamiento general vigente en sus municipios y de su antigüedad, a partir de la base de datos de planeamiento urbanístico de la Secretaría General de Agenda Urbana y Vivienda. A continuación, se ofrecen, en una primera tabla, datos a nivel de provincia, área urbana y municipio sobre las clases de suelo recogidas en el SIU: Suelo urbano consolidado, Suelo urbano no consolidado, Suelo urbanizable delimitado o sectorizado, Suelo urbanizable no delimitado o sectorizado, Suelo no urbanizable y Sistemas generales y otros. En el caso de los municipios, se especifica la figura de planeamiento a la que corresponden los datos y su fecha de publicación, así como la fecha de actualización de la información urbanística. Esta última fecha corresponde a aquella en la que se pueden considerar incluidas en el sistema todas las modificaciones de planeamiento urbanístico relevantes a efectos del SIU. En la segunda tabla, se ofrecen, a nivel de provincia, área urbana y municipio los principales datos de las Áreas de Desarrollo: edificabilidades previstas en el planeamiento para los principales usos (residencial, industrial y terciario) y el número de viviendas previstas, ofreciendo en ambos casos el porcentaje ejecutado de acuerdo con la estimación basada en trabajos de fotointerpretación sobre las Áreas de Desarrollo. En la tabla se especifica la fecha de la ortofoto utilizada en cada municipio para realizar la estimación de los grados de urbanización y de edificación. Finalmente, se incluye el número total de sectores o
+Áreas de Desarrollo cuya información se encuentra integrada en el SIU. Como ya se ha indicado, a través del portal web del Sistema de Información Urbana puede encontrarse más información sobre la metodología y el modelo de datos del SIU. No obstante, conviene hacer algunas consideraciones generales acerca de ciertos aspectos de los datos publicados en el estudio para facilitar su interpretación:
+▪ En relación con el número de viviendas previstas, en el SIU se toma el dato de la ficha urbanística de cada uno de los ámbitos o sectores que conforman las Áreas de Desarrollo.

@@ -1,0 +1,21 @@
+---
+id: "rag-reports-bde-es-bde-do2002-intervencion-publica-alquiler-revision-internacional-pdf__trozo_028"
+tipo_documento: "chunk"
+categoria: "informes"
+pais_codigo: "es"
+pais: "España"
+documento_padre: "documentos/por_pais/espana/informes/informe-espana-la-intervencion-publica-en-el-mercado-del-alquiler-de-vivienda-una-rev-33784c06.md"
+orden_chunk: 28
+titulo: "21 El modelo se calibra para el área metropolitana de Nueva York, permitiendo evaluar los efectos de un amplio conjunto de políticas de acceso a la vivienda sob..."
+caracteres: 3641
+---
+# 21 El modelo se calibra para el área metropolitana de Nueva York, permitiendo evaluar los efectos de un amplio conjunto de políticas de acceso a la vivienda sob...
+
+## 21 El modelo se calibra para el área metropolitana de Nueva York, permitiendo evaluar los efectos de un amplio conjunto de políticas de acceso a la vivienda sob...
+
+BANCO DE ESPAÑA23DOCUMENTO OCASIONAL N.º 2002 negativos de la regulación. Las evaluaciones disponibles se centran en la experiencia de algunas de las principales ciudades estadounidenses y coinciden en mostrar la existencia de efectos adversos creados por los controles de precios del alquiler. Por ejemplo, Diamond et al. (2019b) muestran cómo las políticas de control de rentas del alquiler en San Francisco habrían reducido la oferta de alquiler y modificado su composición, contribuyendo así
+al aumento de los precios del alquiler y al proceso de gentrificación e incremento de la desigualdad de la renta a escala local. En concreto, los controles de rentas habrían sido efectivos en el corto plazo para reducir el desplazamiento de los hogares de menor renta, principalmente entre las minorías raciales, disminuyendo la movilidad de los residentes en las áreas sujetas a la regulación. Sin embargo, a medio y largo plazo, la reacción de los propietarios de viviendas arrendadas habría provocado una reducción de la oferta de alquiler para los hogares con niveles más bajos de renta. En particular, como consecuencia de la regulación, se observa un incremento de la construcción de viviendas dirigidas a hogares con mayor poder adquisitivo, la reforma de las viviendas para escapar de la regulación o su venta. En conjunto, esta política habría provocado una mayor segmentación de la población y una caída de la oferta de vivienda en alquiler, que habría contribuido al incremento de los precios del alquiler en la ciudad.
+El análisis de los efectos de los controles de precios en Cambridge (MA) y en el área metropolitana de Boston muestra las pérdidas de eficiencia creadas por la regulación de los precios y las ganancias de bienestar derivadas de la desaparición subsiguiente de los controles del alquiler [Sims (2007), Autor et al. (2014) y Autor et al. (2019)]. Esta evidencia muestra cómo los controles de las rentas del alquiler habrían deprimido significativamente el valor no solo de las viviendas arrendadas, sino también de las propiedades y equipamientos en los barrios en los que se concentran las viviendas reguladas. Por otro lado, la finalización del control de las rentas del alquiler de vivienda habría incrementado la inversión residencial en las áreas desreguladas y habría contribuido a la reducción de sus tasas de criminalidad.
+En Europa, el análisis empírico sobre el impacto de los controles del precio del alquiler se centra en la reciente introducción del sistema de frenos al precio del alquiler en
+Alemania. Mense et al. (2017) investigan el impacto de la regulación tanto en los precios como en la oferta de alquiler, utilizando la variación temporal y espacial derivada de la adopción secuencial del sistema de frenos del alquiler por parte de un conjunto de municipios alemanes a partir de junio de 2015. En particular, el análisis aprovecha la variación generada por la exclusión de la regulación de las viviendas construidas a partir de octubre de 2014.
+Los resultados indican que esta política supuso una reducción del precio del alquiler en el segmento regulado, mientras que los controles causaron un incremento sustancial de los precios del alquiler de vivienda en los segmentos no regulados del mercado. Al mismo tiempo, los resultados muestran que el incremento de las rentas en las viviendas no reguladas generó una asignación ineficiente de los hogares entre las viviendas, hecho que produce una pérdida de bienestar social22.

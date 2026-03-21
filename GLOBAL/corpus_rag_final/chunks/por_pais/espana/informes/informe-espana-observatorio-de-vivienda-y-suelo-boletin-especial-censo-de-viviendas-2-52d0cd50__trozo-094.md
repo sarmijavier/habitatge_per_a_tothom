@@ -1,0 +1,144 @@
+---
+id: "rag-reports-mivau-special-es-mivau-boletin-especial-censo-viviendas-2021-pdf__trozo_094"
+tipo_documento: "chunk"
+categoria: "informes"
+pais_codigo: "es"
+pais: "España"
+documento_padre: "documentos/por_pais/espana/informes/informe-espana-observatorio-de-vivienda-y-suelo-boletin-especial-censo-de-viviendas-2-52d0cd50.md"
+orden_chunk: 94
+titulo: "22125 Huesca 29.309 28.284 21.830 20.786 7.479 7.498 74,48 73,49 25,52 26,51 a 11015 Chiclana de la Frontera 17.591 15.124 13.564 10.528 4.0... (2)"
+caracteres: 3954
+---
+# 22125 Huesca 29.309 28.284 21.830 20.786 7.479 7.498 74,48 73,49 25,52 26,51 a 11015 Chiclana de la Frontera 17.591 15.124 13.564 10.528 4.0... (2)
+
+## 22125 Huesca 29.309 28.284 21.830 20.786 7.479 7.498 74,48 73,49 25,52 26,51 a 11015 Chiclana de la Frontera 17.591 15.124 13.564 10.528 4.027 4.596 16,31 28,84...
+
+46131 Gandia 54.541 54.592 30.322 29.646 24.219 24.946 55,59 54,30 44,41 45,70
+
+29051 Estepona 50.366 50.082 27.729 24.280 22.637 25.802 55,05 48,48 44,95 51,52
+
+29070 Mijas 62.030 50.806 33.623 29.523 28.407 21.283 54,20 58,11 45,80 41,89
+
+03031 Benidorm 60.479 58.011 29.550 27.912 30.929 30.099 48,86 48,12 51,14 51,88
+
+03099 Orihuela 88.508 69.486 31.805 31.021 56.703 38.465 35,93 44,64 64,07 55,36
+
+Fuente: INE (Censos 2011 y 2021) y elaboración propia.
+
+OBSERVATORIO DE VIVIENDA Y SUELO Boletín Especial Censo de Viviendas 2021
+
+DIRECCIÓN GENERAL DE VIVIENDA Y SUELO
+
+Anexo III. Viviendas no principales: secundarias, vacías y turísticas
+Viviendas secundarias y vacías
+
+Parque de viviendas no principales en 2011 y 2021: viviendas secundarias y vacías (unidades).
+Vivienda no principal 2021
+Vivienda no principal 2011
+Vivienda secundaria
+
+Vivienda secundaria 2011
+Vivienda vacía
+Vivienda vacía
+
+Total Nacional 8.087.092 7.124.931 4.249.764 3.681.565 3.837.328 3.443.365
+
+03 Alicante/Alacant 595.907 535.729 386.879 326.705 209.028 209.024
+
+46 Valencia/València 458.837 437.887 286.262 223.885 172.575 214.002
+
+28 Madrid 410.452 425.301 222.594 162.022 187.858 263.279
+
+08 Barcelona 399.220 434.490 185.756 151.335 213.464 283.155
+
+29 Málaga 336.222 291.049 183.448 170.438 152.774 120.611
+
+30 Murcia 303.603 261.333 200.440 132.216 103.163 129.117
+
+15 Coruña, A 233.612 206.262 70.448 86.193 163.164 120.069
+
+43 Tarragona 231.735 213.126 143.829 140.549 87.906 72.577
+
+33 Asturias 227.773 156.107 127.127 73.250 100.646 82.857
+
+07 Balears, Illes 210.587 156.972 105.153 85.717 105.434 71.255
+
+12 Castellón/Castelló 208.541 186.550 130.933 104.547 77.608 82.003
+
+17 Girona 208.497 197.160 132.211 141.700 76.286 55.460
+
+18 Granada 205.706 181.902 115.168 88.804 90.538 93.098
+
+41 Sevilla 189.520 183.064 92.331 56.774 97.189 126.290
+
+11 Cádiz 179.828 170.571 109.664 94.562 70.164 76.009
+
+45 Toledo 170.023 155.647 81.268 78.928 88.755 76.718
+
+36 Pontevedra 162.322 139.843 38.905 61.691 123.417 78.152
+
+04 Almería 158.820 145.777 85.792 72.486 73.028 73.291
+
+24 León 156.175 119.047 67.078 60.235 89.097 58.812
+
+50 Zaragoza 148.443 116.628 81.279 52.832 67.164 63.796
+
+39 Cantabria 145.412 121.756 95.915 74.697 49.497 47.059
+
+38 Santa Cruz de Tenerife 140.037 128.263 29.081 66.901 110.956 61.362
+
+32 Ourense 139.252 111.985 19.904 56.049 119.348 55.936
+
+06 Badajoz 132.191 112.538 70.102 49.441 62.089 63.097
+
+10 Cáceres 131.950 110.832 70.615 68.756 61.335 42.076
+
+27 Lugo 131.512 88.158 31.071 42.919 100.441 45.239
+
+35 Palmas, Las 128.348 122.729 27.973 45.829 100.375 76.900
+
+23 Jaén 127.551 95.923 65.050 37.002 62.501 58.921
+
+09 Burgos 123.340 101.674 74.763 65.684 48.577 35.990
+
+21 Huelva 119.551 98.241 77.644 64.917 41.907 33.324
+
+13 Ciudad Real 119.298 87.954 28.129 41.522 91.169 46.432
+
+14 Córdoba 114.679 99.397 61.343 43.721 53.336 55.676
+
+37 Salamanca 102.890 93.155 61.181 59.369 41.709 33.786
+
+05 Ávila 102.179 94.232 64.755 68.536 37.424 25.696
+
+02 Albacete 90.079 66.575 50.201 30.244 39.878 36.331
+
+25 Lleida 86.318 73.661 45.362 36.496 40.956 37.165
+
+OBSERVATORIO DE VIVIENDA Y SUELO Boletín Especial Censo de Viviendas 2021
+
+DIRECCIÓN GENERAL DE VIVIENDA Y SUELO
+
+Vivienda no principal 2021
+Vivienda no principal 2011
+Vivienda secundaria
+
+Vivienda secundaria 2011
+Vivienda vacía
+Vivienda vacía
+
+Total Nacional 8.087.092 7.124.931 4.249.764 3.681.565 3.837.328 3.443.365
+
+19 Guadalajara 83.468 74.104 40.877 53.334 42.591 20.770
+
+22 Huesca 81.599 66.791 52.020 45.605 29.579 21.186
+
+47 Valladolid 80.793 72.113 53.571 35.794 27.222 36.319
+
+49 Zamora 79.576 59.315 37.764 39.587 41.812 19.728
+
+26 Rioja, La 79.092 68.685 53.158 32.940 25.934 35.745
+
+48 Bizkaia 75.828 66.587 41.710 22.883 34.118 43.704
+
+31 Navarra 74.774 60.006 41.782 24.540 32.992 35.466

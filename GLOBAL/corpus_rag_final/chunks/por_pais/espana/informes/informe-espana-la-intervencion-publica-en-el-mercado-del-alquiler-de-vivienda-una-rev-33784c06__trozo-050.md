@@ -1,0 +1,20 @@
+---
+id: "rag-reports-bde-es-bde-do2002-intervencion-publica-alquiler-revision-internacional-pdf__trozo_050"
+tipo_documento: "chunk"
+categoria: "informes"
+pais_codigo: "es"
+pais: "España"
+documento_padre: "documentos/por_pais/espana/informes/informe-espana-la-intervencion-publica-en-el-mercado-del-alquiler-de-vivienda-una-rev-33784c06.md"
+orden_chunk: 50
+titulo: "36 Entre las cláusulas habituales incluidas en la normativa que permiten al propietario rescindir el contrato de alquiler de vivienda, se encontrarían la venta..."
+caracteres: 3374
+---
+# 36 Entre las cláusulas habituales incluidas en la normativa que permiten al propietario rescindir el contrato de alquiler de vivienda, se encontrarían la venta...
+
+## 36 Entre las cláusulas habituales incluidas en la normativa que permiten al propietario rescindir el contrato de alquiler de vivienda, se encontrarían la venta...
+
+BANCO DE ESPAÑA34DOCUMENTO OCASIONAL N.º 2002 mecanismos automáticos de actualización de las rentas37, mayores tiempos requeridos al propietario para comunicar la finalización del arrendamiento, el endurecimiento de algunas de las cláusulas que permiten rescindir un contrato vigente e incluso la introducción de compensaciones al inquilino en caso de rescisión del contrato por un motivo justificado por parte del propietario. Esta mayor protección sobre los inquilinos podría generar ganancias de bienestar social, al dotar a los arrendatarios de una mayor certidumbre en la toma de decisiones económicas. En concreto, esta protección actúa como un mecanismo de aseguramiento frente a posibles subidas abruptas de las rentas del alquiler, y reduce la probabilidad y los costes de un desplazamiento inesperado por parte de los inquilinos.
+Esta justificación podría ser particularmente relevante en contextos en los que la oferta de vivienda de alquiler es inelástica y en los que el propietario de la vivienda presenta poder de fijación de los precios del alquiler. De manera complementaria, las ganancias de bienestar social serían mayores en el caso de que los grupos con mayor protección fueran los de menor renta, al concentrase en estos colectivos las ganancias del aseguramiento
+[Favilukis et al. (2019)].
+La evidencia disponible para las economías avanzadas muestra la existencia de una amplia heterogeneidad en el diseño del marco jurídico y en las cláusulas específicas incluidas en los contratos de alquiler residencial (véanse cuadros 1 y 2). En general, en los países de la OCDE la regulación tiende a establecer plazos mínimos o períodos indefinidos en la duración de los contratos de alquiler de vivienda; mayores períodos de preaviso para la rescisión del contrato de alquiler por parte del propietario que los plazos fijados para el inquilino, y cláusulas que limitan los incrementos de los precios durante el período de arrendamiento [OECD (2016)]. No obstante, existe una amplia diversidad en los detalles concretos que regulan estas cláusulas. Por ejemplo, los plazos mínimos fijados abarcan desde un mes en Estados Unidos hasta los nueve años en Bélgica38. Por otro lado, no se establecen plazos en la duración de los contratos de alquiler de vivienda (open-ended contract) en un grupo de países en los que el alquiler residencial ha presentado históricamente una notable relevancia, como son Alemania, Países Bajos, Suecia o Dinamarca. En estos países, el contrato de alquiler de vivienda se acuerda para un período de tiempo indefinido, pero tienden a establecerse cláusulas que regulan las condiciones por las que el propietario tiene capacidad de rescindir el contrato de alquiler ante determinadas contingencias (véase nota al pie 36). Adicionalmente, en la gran mayoría de los países se requiere a los nuevos inquilinos constituir garantías en favor de los propietarios en forma de depósitos, fianzas o avales.
+La cuantía de estas garantías monetarias suele oscilar entre uno y tres meses de la renta mensual del alquiler39, con mayor posibilidad de aseguramiento por parte de los propietarios en países como Austria o Polonia, donde se permite fijar hasta seis meses de depósito.

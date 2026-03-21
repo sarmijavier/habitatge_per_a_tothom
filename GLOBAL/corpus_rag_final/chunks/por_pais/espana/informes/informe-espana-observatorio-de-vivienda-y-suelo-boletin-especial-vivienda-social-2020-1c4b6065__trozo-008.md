@@ -1,0 +1,22 @@
+---
+id: "rag-reports-mivau-special-es-mivau-boletin-especial-vivienda-social-2020-pdf__trozo_008"
+tipo_documento: "chunk"
+categoria: "informes"
+pais_codigo: "es"
+pais: "España"
+documento_padre: "documentos/por_pais/espana/informes/informe-espana-observatorio-de-vivienda-y-suelo-boletin-especial-vivienda-social-2020-1c4b6065.md"
+orden_chunk: 8
+titulo: "SECRETARÍA GENERAL DE AGENDA URBANA Y VIVIENDA 8 a 10.968.836 viviendas terminadas supera con creces al incremento de los hogares, pero en c... (1)"
+caracteres: 3762
+---
+# SECRETARÍA GENERAL DE AGENDA URBANA Y VIVIENDA 8 a 10.968.836 viviendas terminadas supera con creces al incremento de los hogares, pero en c... (1)
+
+## SECRETARÍA GENERAL DE AGENDA URBANA Y VIVIENDA 8 a 10.968.836 viviendas terminadas supera con creces al incremento de los hogares, pero en ca...
+
+Por su parte, la Tabla 1.3. ofrece la proporción de vivienda, tanto libre como protegida, en relación con el crecimiento de la población y los hogares en las diferentes comunidades autónomas. En ella se puede observar que los hogares han experimentado un crecimiento progresivo muy significativo desde comienzos de la década de los 80 hasta 2010. Sin embargo, a partir de este momento la tendencia se invierte, produciéndose una recesión en su crecimiento, y en determinadas comunidades incluso una disminución de los hogares, siendo el caso más significativo el de Castilla León, con 22.466 hogares menos que en 2010, seguida de Castilla-La Mancha, Asturias o Aragón, habiendo todas ellas perdido tanto población como hogares en la última década. La población, por su parte, no sigue siempre la misma tendencia de crecimiento o decrecimiento que los hogares, de tal manera que algunas comunidades como es el caso de Asturias, Castilla León o País
+Vasco, experimentan pérdidas de habitantes en las décadas de los 80 y los 90, como consecuencia de la crisis industrial que sufrieron, especialmente, dichas zonas del país; sin embargo, los hogares continuaron aumentando. Tras unos años de crecimiento en la primera década del nuevo milenio, la grave crisis económico-financiera que tuvo lugar a partir del año 2007, hizo que la mayor parte del territorio invirtiese nuevamente la tendencia creciente de la población y, o bien experimenta una recesión en su crecimiento, o bien pierde habitantes. Son especialmente significativos los casos de
+Castilla-León, Castilla-La Mancha, Galicia, Asturias y Extremadura. En estos casos la reducción sí afectó
+también a la evolución del número de hogares. Así pues, teniendo en cuenta las cifras acumuladas en los diferentes periodos temporales (Tabla 1.3 y
+Gráfico 1.3.a) y pese a la grave crisis experimentada en la última década, especialmente por el sector de la construcción, la vivienda terminada aumenta de manera generalizada desde los años 80, superando en la mayoría de casos a los hogares, e incluso llegando a duplicarlos en casos como el de
+Andalucía, Aragón, Asturias, Castilla-León (es este caso el crecimiento de la vivienda casi triplica el de los hogares), Castilla-La Mancha, Extremadura, Galicia y Murcia. Más contenido fue, en cambio, el crecimiento de la construcción de vivienda en País Vasco, Navarra y Cataluña, muy próximo en los tres casos al incremento de los hogares. Las cifras globales del periodo resultan algo inferiores en el caso de la Comunidad de Madrid, donde las viviendas han crecido un 12% menos que los hogares desde los años 80 hasta la actualidad, debido en gran medida, a la concentración de población que se ha producido en las últimas décadas en la capital como consecuencia de importantes fenómenos migratorios desde otros territorios de España. Por su parte, destaca en la misma Tabla 1.3, el hecho de que en el último período (2011-2019) en las Islas
+Baleares, Canarias, Andalucía y Región de Murcia, el incremento de hogares ha superado al número de nuevas viviendas. Esta circunstancia en relación con los hogares, se debe en parte a la concentración en dichos territorios de grupos de población de avanzada edad, mayoritariamente europea, procedente de Holanda, Alemania, Bélgica o Inglaterra, entre otros países, que han decidido trasladar su residencia al litoral meridional o a las comunidades autónomas insulares. Este fenómeno, unido a la crisis económico-financiera que asoló la construcción de vivienda en el país en ese mismo periodo, da lugar al desequilibrio entre incremento de hogares e incremento de viviendas.
